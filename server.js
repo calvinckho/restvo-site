@@ -84,7 +84,7 @@ function start() {
 
   if (!PROD) {
     // Proxy for oauth when in dev mode
-    app.use('/oauth', createProxyMiddleware({ target: 'https://staging.ionicframework.com', changeOrigin: true, secure: false }));
+    app.use('/oauth', createProxyMiddleware({ target: 'http://site.restvo.com', changeOrigin: true, secure: false }));
   }
   
   nunjucks.configure('server/pages', {

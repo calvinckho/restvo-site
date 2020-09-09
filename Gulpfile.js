@@ -213,7 +213,7 @@ const watch = gulp.series(
     watchStencil
   ),
   async () => {
-    return browserSync.init({ 'proxy': 'http://localhost:3000', 'port': 3003 })
+    return browserSync.init({ 'proxy': 'http://localhost:8000', 'port': 8003 })
   }
 );
 
