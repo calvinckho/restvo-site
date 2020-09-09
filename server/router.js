@@ -51,6 +51,7 @@ module.exports = {
     .get('/books/hybrid-vs-native/preview', (_, res) => res.render('books/hybrid-vs-native-preview'))
     .get('/books/rethinking-low-code', (_, res) => res.render('books/rethinking-low-code'))
 
+    .get('/churches', (_, res) => res.render('churches'))
     .get('/code-of-conduct', (_, res) => markdown(res, 'code-of-conduct'))
     .get('/community', (_, res) => res.render('community'))
     .get('/contact', (_, res) => res.render('contact'))
@@ -62,6 +63,7 @@ module.exports = {
     .get('/demo', (_, res) => res.render('demo'))
     .get('/developers', (_, res) => res.render('developers'))
     .get('/ds', (_, res) => res.render('ds'))
+    .get('/denominations', (_, res) => res.render('denominations'))
 
     .get('/enterprise', (_, res) => res.render('enterprise/index'))
     .get('/enterprise/auth-connect', (_, res) => res.render('enterprise/auth-connect'))
@@ -106,6 +108,7 @@ module.exports = {
     .get('/login', (_, res) => res.render('login'))
     .get('/logout', (_, res) => res.render('logout'))
     .get('/native', (_, res) => res.render('native'))
+    .get('/nonprofits', (_, res) => res.render('nonprofits'))
     .get('/press', (_, res) => res.render('press'))
     .get('/pricing', (_, res) => res.render('pricing/index'))
     .get('/pricing/compare', (_, res) => res.render('pricing/compare'))
