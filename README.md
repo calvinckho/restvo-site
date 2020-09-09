@@ -1,11 +1,7 @@
-ionic-site
+restvo-site
 ==========
 
-Repo for the ionicframework.com site.  To preview local Ionic changes, follow the instructions at the [Ionic repo](https://github.com/ionic-team/ionic#documentation).
-
-## No Docs Here
-
-Ionic Docs are in a [separate repo](https://github.com/ionic-team/ionic-docs/). This site is primarily used for general communications and promotion of Ionic framework and related products and services. 
+Repo for the restvo.com site.
 
 ## Local Build
 
@@ -20,15 +16,4 @@ Ionic Docs are in a [separate repo](https://github.com/ionic-team/ionic-docs/). 
 
 ## Deploy
 
-Changes to master are automatically deployed to  [staging.ionicframework.com/](https://staging.ionicframework.com/). Periodically, the Ionic tean will inspect staging and promote it to [ionicframework.com](https://ionicframework.com).
-
-
-## Community
-
-* Follow [@ionicframework on Twitter](https://twitter.com/ionicframework).
-* Subscribe to the [Ionic Newsletter](https://ionicframework.com/subscribe/).
-* Have a question that's not a feature request or bug report? [Discuss on the Ionic Forum](https://forum.ionicframework.com/).
-* Read our [Blog](https://ionicframework.com/blog/).
-* Have a feature request or find a bug? [Submit an issue](https://github.com/ionic-team/ionic/issues).
-* See a problem with our documentation? [Submit an issue](https://github.com/ionic-team/ionic-docs/issues).
-* See a typo or browser bug on a non-docs page? [Submit an issue](https://github.com/ionic-team/ionic-site/issues).
+Changes to master are automatically deployed to  [dev.restvo.com/](https://dev.restvo.com/). Periodically, the Restvo team will inspect staging and promote it to [restvo.com](https://restvo.com).
