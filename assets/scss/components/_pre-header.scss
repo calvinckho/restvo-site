@@ -1,0 +1,340 @@
+.pre-header {
+  font-family: $font-family-inter;
+  background: #F8FAFC;
+    box-shadow: 0 1px 0px 0 rgba(0,20,56,.06);
+    position: relative;
+    z-index: 999;
+    padding: 6px 0 7px;
+    text-align: center;
+    color: #73849A;
+
+  .container {
+    position: relative;
+    font-size: 11px;
+    line-height: 1.8em;
+    font-weight: 400;
+    letter-spacing: -.01em;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+
+  #btn-header-announcement {
+    color: #fff;
+    border-radius: 16px;
+    margin-left: 12px;
+    padding: 6px 8px 5px;
+    font-weight: 600;
+    font-size: 9px;
+    text-transform: uppercase;
+    vertical-align: 0;
+    white-space: pre;
+    letter-spacing: .02em;
+    transition: .2s background-color, .2s box-shadow;
+    background: linear-gradient(68.35deg, #4CC3FF 0%, #4172FF 100%);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.06);
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-left: 24px;
+    line-height: 1;
+
+    &::after {
+      font-family: 'Ionicons';
+      content: '\f3d1';
+      margin-left: 3px;
+    }
+
+    &:hover {
+      background-color: lighten(#73a5ff, 5);
+      // background-color: lighten(#30427e, 5);
+      box-shadow: 0 1px 2px rgba(black, .1);
+    }
+  }
+  #optimizely {
+    transition: .2s opacity;
+  }
+
+  p {
+    display: inline;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #020814;
+  }
+
+  a{
+    background-color: #73a5ff;
+    color: #fff;
+    border-radius: 16px;
+    margin-left: 12px;
+    padding: 6px 8px 5px;
+    font-weight: 600;
+    font-size: 9px;
+    text-transform: uppercase;
+    vertical-align: 0;
+    white-space: pre;
+    letter-spacing: .02em;
+    transition: .2s background-color, .2s box-shadow;
+
+    &::after {
+      font-family: 'Ionicons';
+      content: '\f3d1';
+      margin-left: 3px;
+    }
+
+    &:hover {
+      background-color: lighten(#73a5ff, 5);
+      // background-color: lighten(#30427e, 5);
+      box-shadow: 0 1px 2px rgba(black, .1);
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    display: none;
+  }
+
+  &.back {
+    background: #F9F9F9;
+    text-align: left;
+    box-shadow: none;
+    padding: 3px 0;
+
+    a {
+      line-height: normal;
+      font-weight: 600;
+      font-size: 10px;
+      letter-spacing: 0.05em;
+      color: #3880FF;
+      background: none;
+      margin: 0;
+      padding: 10px 0;
+
+      &::after {
+        display: none;
+      }
+
+      ion-icon {
+        color: rgba(56, 128, 255, 0.7);
+        font-size: 12px;
+        height: 12px;
+        width: 12px;
+        display: inline-block;
+        vertical-align: -2px;
+        opacity: 0;
+        transition: .2s transform ease, .2s opacity;
+        margin-right: 4px;
+
+        &.hydrated {
+          opacity: 1;
+        }
+      }
+
+      &:hover {
+        box-shadow: none;
+
+        ion-icon {
+          transform: translateX(-2px);
+        }
+      }
+    }
+  }
+
+  &--studio {
+    background-color: #0B0C10;
+    background-image: url('/img/products/studio/preheader-bg-2.png');
+    background-repeat: no-repeat;
+    background-size: 1224px 49px;
+    background-position: center;
+    color: #B2BECD;
+    padding: 10px 0 12px;
+
+    .container {
+      font-size: 13px;
+    }
+
+    .container > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container > div::before {
+      display: block;
+      content: '';
+      background-image: url('/img/products/studio/studio-logo.svg');
+      width: 78px;
+      height: 21px;
+      margin-right: 24px;
+    }
+
+    .container p {
+      margin-bottom: 0;
+    }
+
+    a {
+      background-color: #3880FF;
+      font-size: 11px;
+      padding: 5px 10px;
+      margin-left: 24px;
+      line-height: 1;
+    }
+    a:hover {
+      background-color: lighten(#3880FF, 5%);
+    }
+  }
+
+  &--blm {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0 12px;
+
+    .container {
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .container > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container p {
+      margin-bottom: 0;
+    }
+
+    #btn-header-announcement {
+      color: #FFD84D;
+      font-size: 13px;
+      padding: 5px 10px;
+      margin-left: 8px;
+      line-height: 1;
+      background: none;
+      text-transform: none;
+      transition: .2s color ease;
+
+      &::after {
+        content: '->';
+        letter-spacing: 0;
+        font-family: unset;
+        background: none;
+        display: inline-block;
+        transition: .2s transform ease-out;
+      }
+
+      &:hover {
+        background: none;
+      }
+    }
+
+    &:hover #btn-header-announcement::after {
+      transform: translateX(2px);
+    }
+  }
+
+  &--ioniconf {
+    background-color: #000715;
+    background-image: url('/img/announcement-bar/preheader-bg-ioniconf.png');
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    background-position: center;
+    color: #DEE3EA;
+    padding: 10px 0 12px;
+    overflow: hidden;
+
+    .container {
+      font-size: 13px;
+    }
+
+    .container > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container p {
+      margin-bottom: 0;
+      margin-left: 140px;
+      color: #DEE3EA;
+      position: relative;
+
+      &::before {
+        display: block;
+        content: '';
+        background-image: url('/img/announcement-bar/ioniconf-logo.png');
+        background-size: 120px;
+        width: 120px;
+        height: 72px;
+        margin-right: 24px;
+        position: absolute;
+        left: -140px;
+        top: calc(50% - 36px);
+      }
+    }
+
+    a {
+      background: linear-gradient(68.35deg, #4CC3FF 0%, #4172FF 100%);
+      box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.06);
+      font-size: 10px;
+      padding: 5px 10px;
+      margin-left: 24px;
+      line-height: 1;
+    }
+    a:hover {
+      background-color: lighten(#3880FF, 5%);
+    }
+  }
+
+  &--react,
+  &--confetti {
+    background-color: #5991f7;
+    background-image: 
+      url('/img/announcement-bar/bg-confetti.svg'), 
+      linear-gradient(56.45deg, #3E6DFF 18.73%, #5CCEFF 99.13%);
+    background-size: cover, 100%;
+    background-position: center;
+    color: white;
+    padding: 10px 0 12px;
+
+    p {
+      font-size: 13px;
+      line-height: 16px;
+    }
+
+    strong {
+      color: white;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: -.02;
+      margin-right: 28px;
+    }
+
+    a {
+      background: white;
+      color: #4B96FF;
+      font-size: 11px;
+      letter-spacing: .02em;
+      font-weight: 700;
+
+      &:hover {
+        background: #f5f5f5;
+      }
+
+      &:active {
+        box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    @media (max-width: $screen-sm-max) {
+      strong,
+      p {
+        font-size: 12px;
+        margin-right: 0;
+      }
+    }
+  }
+}
