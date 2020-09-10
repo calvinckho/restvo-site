@@ -20,7 +20,7 @@ const uglify = require('gulp-uglify-es').default;
 
 var closureStart =
   '/*!\n' +
-  ' * Ionic \n' +
+  ' * Restvo \n' +
   ' * Copyright 2015-present Drifty Co.\n' +
   ' */\n' +
   '(function() {\n';
@@ -78,8 +78,7 @@ function justReload(done) {
 const stylesOthers = () => {
   // For best performance, don't add Sass partials to `gulp.src`
   return gulp.src([
-    'assets/scss/**/*.scss',
-    '!assets/scss/styles.scss'
+    'assets/scss/**/*.scss', '!assets/scss/styles.scss', '!assets/scss/**/_*.scss'
   ])
     .pipe($.sourcemaps.init())
     .pipe(sass({
@@ -100,7 +99,7 @@ const stylesOthers = () => {
 const stylesMain = () => {
   // For best performance, don't add Sass partials to `gulp.src`
   return gulp.src(
-    ['assets/scss/styles.scss'].concat(lib.css)
+    ['assets/scss/**/_*.scss', 'assets/scss/styles.scss'].concat(lib.css)
   ).pipe($.sourcemaps.init())
     .pipe(sass({
       precision: 10,

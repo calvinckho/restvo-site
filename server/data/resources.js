@@ -206,8 +206,8 @@ const resources = {
     ]
   },
   "case-studies": {
-    title: "Case Studies",
-    description: "Case Studies showcasing best in class Ionic-built apps from some of the best companies in the world.",
+    title: "Documentations",
+    description: "Documentations showcasing best in class Ionic-built apps from some of the best companies in the world.",
     meta_description: 'Read how Ionic customers have leveraged Ionic solutions to achieve success on business critical projects within their organizations.',
     items: [
       /*{
