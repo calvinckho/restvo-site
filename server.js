@@ -9,6 +9,7 @@ const helmet       = require('helmet');
 const path         = require('path');
 const Sentry       = require('@sentry/node');
 const throng       = require('throng');
+const logger       = require('morgan');
 
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
@@ -67,6 +68,7 @@ function start() {
   // The Sentry request handler must be the first middleware on the app
   app.use(Sentry.Handlers.requestHandler());
   app.use(compress());
+  app.use(logger('dev')); // Log requests to API using morgan
   app.use(cookieParser());
   app.use(helmet());
   app.enable('etag');

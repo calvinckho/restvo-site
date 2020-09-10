@@ -1,13 +1,7 @@
 const heroFeatured = [
   {
     category: "articles",
-    title: "State of App Development - 2020"
-  }, {
-    category: "articles",
-    title: "Evaluating Ionic for Enterprise",
-  }, {
-    category: "articles",
-    title: "Ionic React vs React Native"
+    title: "Restvo Vision & Mission"
   }
 ];
 
@@ -18,9 +12,9 @@ const resources = {
     meta_description: 'Get the latest insights on mobile app development technology and trends for enterprise app development. Ionic articles provide insights into mobile strategy for enteprises and businesses alike.',
     items: [
       {
-        "type": "Whitepaper",
-        "title": "State of App Development - 2020",
-        "url": "https://go.ionicframework.com/state-of-app-dev-2020",
+        "type": "Article",
+        "title": "Restvo Vision & Mission",
+        "url": "/resources/articles/vision-and-mission",
         "target": "_self",
         "action": "Read",
         "bgImage": "/img/resource-center/state-of-app-card.png",
@@ -28,8 +22,8 @@ const resources = {
       },
       {
         "type": "Article",
-        "title": "The ROI of Hybrid vs. Native",
-        "url": "/resources/articles/roi-hybrid-vs-native",
+        "title": "The Story of Restvo",
+        "url": "/resources/articles/story-of-restvo",
         "target": "_self",
         "action": "Read",
         "bgImage": "/img/resource-center/roi-hybrid-native-card.png",
@@ -37,8 +31,8 @@ const resources = {
       },
       {
         "type": "Article",
-        "title": "Why Developers Love Ionic",
-        "url": "/resources/articles/why-developers-love-ionic",
+        "title": "7 Ways to Become a Better Mentor",
+        "url": "/resources/articles/7-ways-become-better-mentor",
         "target": "_self",
         "action": "Read",
         "bgImage": "/img/resource-center/article-why-developers-love-ionic.png",
@@ -46,8 +40,8 @@ const resources = {
       },
       {
         "type": "Article",
-        "title": "Ionic React vs React Native",
-        "url": "/resources/articles/ionic-react-vs-react-native",
+        "title": "We Love Acts 29!",
+        "url": "/resources/articles/love-acts-29",
         "target": "_self",
         "action": "Read",
         "bgImage": "/img/resource-center/article-ionic-react-vs-react-native.png",
@@ -55,8 +49,8 @@ const resources = {
       },
       {
         "type": "Article",
-        "title": "Capacitor vs Cordova: Modern Hybrid App Development",
-        "url": "/resources/articles/capacitor-vs-cordova-modern-hybrid-app-development",
+        "title": "A Word on Anxiety",
+        "url": "/resources/articles/a-word-on-anxiety",
         "target": "_self",
         "action": "Read",
         "bgImage": "/img/resource-center/article-capacitor-vs-cordova.png",
@@ -64,13 +58,13 @@ const resources = {
       },
       {
         "type": "Article",
-        "title": "Ionic vs. React Native: A Comparison Guide",
-        "url": "/resources/articles/ionic-vs-react-native-a-comparison-guide",
+        "title": "5 Steps to Find the Right Mentor",
+        "url": "/resources/articles/5-steps-to-find-the-right-mentor",
         "target": "_self",
         "action": "Read",
         "bgImage": "/img/resource-center/ionic-vs-reactnative-card.png",
         "bgColor": "#15375f"
-      }, {
+      }/*, {
         "type": "Article",
         "title": "What is Hybrid App Development",
         "url": "/resources/articles/what-is-hybrid-app-development",
@@ -208,7 +202,7 @@ const resources = {
         "action": "Read",
         "bgImage": "/img/resource-center/article-ionic-survey.jpg",
         "bgColor": "#5a6eb9"
-      }
+      }*/
     ]
   },
   "case-studies": {
@@ -216,7 +210,7 @@ const resources = {
     description: "Case Studies showcasing best in class Ionic-built apps from some of the best companies in the world.",
     meta_description: 'Read how Ionic customers have leveraged Ionic solutions to achieve success on business critical projects within their organizations.',
     items: [
-      {
+      /*{
         "type": "Case Study",
         "title": "Amtrak",
         "url": "/resources/case-studies/passenger-rail-co",
@@ -372,7 +366,7 @@ const resources = {
         "action": "Read",
         "bgImage": "/img/resource-center/casestudy-natlmuseumofaahistory.jpg",
         "bgColor": "#ffcf5a"
-      }
+      }*/
     ]
   },
   "customer-interviews": {
@@ -403,7 +397,7 @@ const resources = {
     meta: "Ionic Resources: Webinars for developers and architects",
     meta_description: 'Check out Ionic resources and view the white papers, webinars, videos and more we have created to help developers understand why Ionic and cross platform development is the right choices for them.',
     items: [
-      {
+      /*{
         "type": "Webinar",
         "title": "Appflow: Push to App Stores",
         "url": "https://ionicframework.com/resources/webinars/appflow-push-to-app-stores",
@@ -589,7 +583,7 @@ const resources = {
         "action": "Watch",
         "bgImage": "/img/resource-center/webinar-sworkit.jpg",
         "bgColor": "#b396ec"
-      }
+      }*/
     ]
   },
   "videos": {
@@ -597,7 +591,7 @@ const resources = {
     description: "Videos showcasing best in class Ionic-built apps from some of the best companies in the world.",
     meta_description: 'Get the latest videos and tutorials on how to build apps using Ionic. Build amazing cross platform apps with the web.',
     items: [
-      {
+      /*{
         "type": "Video",
         "title": "The Ionic Show: Episode 10",
         "url": "https://www.youtube.com/watch?v=DzFLisvjgQ0&t=305s",
@@ -660,7 +654,7 @@ const resources = {
         "action": "View",
         "bgImage": "/img/resource-center/presentation-production-pwas.jpg",
         "bgColor": "#57db95"
-      }
+      }*/
     ]
   }
 }
