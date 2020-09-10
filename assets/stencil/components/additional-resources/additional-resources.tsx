@@ -13,9 +13,9 @@ export class AdditionalResources {
   @State() headline: string = 'Related Reading';
   @State() resources: { [key: string]: any }[] = [];
 
-  apiURL = 'https://ionicframeworkcom.prismic.io/api/v2';
+  apiURL = 'https://restvo-stencil.cdn.prismic.io/api/v2';
   fields = ['title', 'tagline', 'hero_image', 'meta_image'];
-  categories = ['article', 'blog', 'book', 'case-study', 'course', 'podcast', 'video', 'webinar', 'whitepaper'];
+  categories = ['article', 'blog', 'book', 'documentation', 'case-study', 'course', 'podcast', 'video', 'webinar', 'whitepaper'];
 
 
   async componentWillLoad() {
@@ -28,17 +28,18 @@ export class AdditionalResources {
 
     try {
       const api = await Prismic.getApi(this.apiURL);
-      const response = await api.getSingle('related_resources', {'fetchLinks' : linkedFields});
+      //const response = await api.getSingle('related_resources', {'fetchLinks' : linkedFields});
+      const response: any = await api.query(
+          Prismic.Predicates.any('document.type', this.categories),
+          { pageSize : 4, orderings: ''}
+      );
+      //console.log("res", response)
+      this.headline = 'Related Reading';
 
-      this.headline = this.page === 'default' ? 
-        response.data.text.text : response.data[`${this.page}_text`].text;
-      this.headline = this.headline ?? 'Related Reading';
-
-      const resourcesTmp = this.page === 'default' ? 
-        response.data.resources : response.data[`${this.page}_resources`];
-      this.resources = resourcesTmp.map(r => r.resource);
-
-      // console.log(this.headline, this.resources)
+      /*const resourcesTmp = this.page === 'default' ?
+        response.results : response.data[`${this.page}_resources`];*/
+      this.resources = response && response.results && response.results.length ? response.results : defaultResources;
+      console.log(this.resources)
     } catch (e) {
       console.warn(e);
       console.log('Using default Related Resources instead');
@@ -49,7 +50,7 @@ export class AdditionalResources {
 
   renderResource(resource) {
     // default image in case it's not set
-    let image = resource.data.hero_image ? 
+    let image = resource.data.hero_image && resource.data.hero_image.url ?
       resource.data.hero_image.url.replace(/\?.*/,'') :
       'https://ionicframework.com/img/resource-center/card-webinar-hybrid-vs-native.png';
     image += '?auto=compress,format&fit=crop&';

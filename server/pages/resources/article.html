@@ -7,7 +7,7 @@
 {% if data.meta_description %}
   {% set meta_description = data.meta_description %}
 {% endif %}
-{% set meta_image = data.meta_image.url or data.hero_image['1x'].url %}
+{% set meta_image = data.meta_image.url %}
 {% import "_includes/macros.html" as macros %}
 {# {% set stickyNav = true %} #}
 
@@ -110,8 +110,7 @@
         </ul>
         </div>
         <img src="{{data.hero_image.url}}"
-             srcset="{{data.hero_image['1x'].url}} 1x, {{data.hero_image.url}} 2x"
-             alt="{{data.hero_image.alt}}">
+             alt="{{data.hero_image.alt}}"><!--srcset="{{data.hero_image['1x'].url}} 1x, {{data.hero_image.url}} 2x"-->
       </hgroup>
 
       <article>
