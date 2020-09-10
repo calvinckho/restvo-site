@@ -3,7 +3,7 @@
 {% set header_style = 'transparent light' %}
 {% set cssPath = 'integrations/index' %}
 
-{% set title = 'Integrate ' + data.name + ' with Ionic - Ionic'%}
+{% set title = 'Integrate ' + data.name + ' with Restvo - Restvo'%}
 {% if data['meta_description'].length %}
   {% set meta_description = data['meta_description'] %}
 {% endif %}
@@ -48,7 +48,7 @@
           <div class="integrations-detail__actions-inner">
             <div class="integrations-detail__cta">
               {% if data['cta_type'] === 'Free' or data['cta_type'] === 'Support' %}
-                <span>Ionic makes it easy to get Started with {{data.name}}</span>
+                <span>Restvo makes it easy to get Started with {{data.name}}</span>
                 <a class="btn" href="{{data['cta_link'].url}}">Get started</a>
               {% endif %}
 

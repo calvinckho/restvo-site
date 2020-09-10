@@ -12,6 +12,8 @@ function linkResolver(doc) {
     return '/resources/articles/' + doc.uid;
   } else if (doc.type === 'case_study') {
     return '/resources/case-studies/' + doc.uid;
+  } else if (doc.type === 'documentation') {
+    return '/resources/documentation/' + doc.uid;
   } else if (doc.type === 'customer_story') {
     return '/resources/customer-interviews/' + doc.uid;
   } else if (doc.type === 'enterprise_blog_post') {
@@ -126,6 +128,7 @@ module.exports = {
 
   getPrismic: async (req, res, next, type, uid, template) => {
     return new Promise(resolve => {
+      console.log("check", type, uid)
       return req.prismic.api.getByUID(type, uid)
         .then(response => {
           delete req;

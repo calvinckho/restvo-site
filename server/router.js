@@ -114,6 +114,7 @@ module.exports = {
     .get('/pricing/compare', (_, res) => res.render('pricing/compare'))
     .get('/pricing/enterprise', (_, res) => res.render('pricing/enterprise'))
     .get('/privacy', (_, res) => markdown(res, 'privacy-policy'))
+    .get('/privacy-policy', (_, res) => markdown(res, 'privacy-policy'))
 
     .get('/pro/contact', (_, res) => res.render('pro/contact'))
     .get('/pro/deploy', (_, res) => res.render('pro/deploy'))
@@ -132,6 +133,8 @@ module.exports = {
       getPrismic(req, res, next, 'article', req.params.article, 'resources/article'))
     .get('/resources/case-studies/:caseStudy', getPrismicAPI, (req, res, next) =>
       getPrismic(req, res, next, 'case_study', req.params['caseStudy'], 'resources/case-studies'))
+    .get('/resources/documentation/:documentation', getPrismicAPI, (req, res, next) =>
+        getPrismic(req, res, next, 'documentation', req.params['documentation'], 'resources/documentation'))
     .get('/resources/customer-interviews/:customerInterview', getPrismicAPI, (req, res, next) =>
       getPrismic(req, res, next, 'customer_story', req.params['customerInterview'], 'resources/customer-stories'))
     .get('/resources/podcasts/:podcast', getPrismicAPI, (req, res, next) =>

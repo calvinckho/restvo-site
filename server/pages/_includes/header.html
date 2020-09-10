@@ -34,7 +34,8 @@
         <i class="ion-md-more"></i>
       </button>
       <a class="navbar-brand" href="/">
-        {% include '_includes/svg/ionic-black.svg' %}
+        <img src="/img/restvo-icon.png"/>
+        <!--{% include '_includes/svg/ionic-black.svg' %}-->
       </a>
     </div>
 
@@ -71,11 +72,11 @@
                     Help Center
                   </a>
                 </li>
-                <li>
-                  <a href="/trusted-partners" class="dropdown-menu__text--l3 icon--trusted-partners">
+                <!--<li>
+                  <a href="/trusted-partners" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;trusted-partners">
                     Trusted Partners
                   </a>
-                </li>
+                </li>-->
               </ul>
             </li>
           </ul>{# end .dropdown-menu__container #}
@@ -91,10 +92,10 @@
         {% else %}
         <li class="sm-hide">
           <a href="https://app.restvo.com">
-            Log in</a>
+            Sign in</a>
         </li>
         <li class="header-btn-white{% if header_style.indexOf('light') != -1 %} blue{% endif %} ">
-          <a href="/"
+          <a href="/demo"
              id="btn-header-sign-up">Demo</a>
         </li>
         {% endif %}

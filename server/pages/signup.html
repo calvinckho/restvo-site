@@ -1,7 +1,7 @@
 {% extends '_layouts/blank.html' %}
 {% set title = "Restvo - Signup" %}
 {% set id = "signup" %}
-{% set meta_description = "Create your Ionic account." %}
+{% set meta_description = "Create your Restvo account." %}
 {% set cssPath = 'auth' %}
 {% set recaptcha = true %}
 
@@ -27,9 +27,9 @@
       <ionic-signup-form
         {% if query.source == 'wizard-1' %}
           heading="Sign up &amp; connect your app"
-          subheading="Sign up for free with your Git host. We will automatically create a repo for your app and connect it to your Ionic dashboard."
+          subheading="Sign up for free with your Git host. We will automatically create a repo for your app and connect it to your Restvo dashboard."
         {% else %}
-          heading="Create your Ionic account"
+          heading="Create your Restvo account"
         {% endif %}
         source="framework-signup"
         ga-event-name="Get started"

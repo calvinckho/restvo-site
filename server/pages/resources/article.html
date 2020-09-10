@@ -74,7 +74,7 @@
           </a>
         </li>
         <li>
-          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{'https://ionicframework.com'+url | urlencode}}&amp;title={{data.title | urlencode}}&amp;source={{'https://ionicframework.com' | urlencode}}"
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{'https://restvo.com'+url | urlencode}}&amp;title={{data.title | urlencode}}&amp;source={{'https://restvo.com' | urlencode}}"
              onclick="window.open(this.href, 'Share via LinkedIn', 'width=500, height=600'); return false;">
             <ion-icon name="logo-linkedin"></ion-icon>
           </a>
@@ -199,8 +199,8 @@ if(navigator.share) {
   webShare.addEventListener("click", () => {
     navigator.share({
       title: '{{ data.title }}',
-      text: 'Check out this article by Ionic Framework: {{ data.title }}',
-      url: '{{ "https://ionicframework.com"+url }}',
+      text: 'Check out this article by Restvo Framework: {{ data.title }}',
+      url: '{{ "https://restvo.com"+url }}',
     });
   });
 }

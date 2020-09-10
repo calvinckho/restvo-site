@@ -66,14 +66,6 @@ const resources = {
         "bgColor": "#15375f"
       }/*, {
         "type": "Article",
-        "title": "What is Hybrid App Development",
-        "url": "/resources/articles/what-is-hybrid-app-development",
-        "target": "_self",
-        "action": "Read",
-        "bgImage": "/img/resource-center/article-whatishybrid.png",
-        "bgColor": "#E85B6A"
-      }, {
-        "type": "Article",
         "title": "Ionic vs Flutter: A Comparison",
         "url": "/resources/articles/ionic-vs-flutter-comparison-guide",
         "target": "_self",
@@ -202,6 +194,170 @@ const resources = {
         "action": "Read",
         "bgImage": "/img/resource-center/article-ionic-survey.jpg",
         "bgColor": "#5a6eb9"
+      }*/
+    ]
+  },
+  "documentation": {
+    title: "Documentations",
+    description: "Documentations showcasing best in class Ionic-built apps from some of the best companies in the world.",
+    meta_description: 'Read how Ionic customers have leveraged Ionic solutions to achieve success on business critical projects within their organizations.',
+    items: [
+      {
+        "type": "Documentation",
+        "title": "Step-by-Step Guide to Create New Coaching Relationship",
+        "url": "/resources/documentation/create-new-coaching-relationship",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/amtrak-card.png",
+        "bgColor": "#2C4186"
+      }/*, {
+        "type": "Case Study",
+        "title": "Jnesis",
+        "url": "/resources/case-studies/jnesis",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-jnesis.jpg",
+        "bgColor": "#2a3341"
+      }, {
+        "type": "Case Study",
+        "title": "Siberian CMS",
+        "url": "/resources/case-studies/siberian-cms",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/siberian-cms-card.png",
+        "bgColor": "#5147F0"
+      }, {
+        "type": "Case Study",
+        "title": "Southwest Airlines",
+        "url": "https://meetmaestro.com/work/southwest/",
+        "target": "_blank",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-southwest.png",
+        "bgColor": "#113F93"
+      }, {
+        "type": "Case Study",
+        "title": "Mobile Measures",
+        "url": "/resources/case-studies/mobile-measures",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/mobile-measures-card.png",
+        "bgColor": "#2C4186"
+      }, {
+        "type": "Case Study",
+        "title": "Samaritan's Purse",
+        "url": "/resources/case-studies/occ",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/samaritans-purse-card.png",
+        "bgColor": "#2a3341"
+      }, {
+        "type": "Customer Interviews",
+        "title": "K12",
+        "url": "/resources/customer-interviews/seth-k12",
+        "action": "Read",
+        "bgImage": "/img/resource-center/customer-interview-k12.jpg",
+        "bgColor": "#9d9849"
+      }, {
+        "type": "Customer Interviews",
+        "title": "CGI",
+        "url": "/resources/customer-interviews/danya-cgi",
+        "action": "Read",
+        "bgImage": "/img/resource-center/customer-interview-cgi.jpg",
+        "bgColor": "#e2465c"
+      }, {
+        "type": "Case Study",
+        "title": "Mauritius Revenue Authority",
+        "url": "/resources/case-studies/mauritius-revenue-authority-mra",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-mra.jpg",
+        "bgColor": "#182435"
+      }, {
+        "type": "Case Study",
+        "title": "Napa Group",
+        "url": "/resources/case-studies/napa-group-llc",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-napa.jpg",
+        "bgColor": "#7479e4"
+      }, {
+        "type": "Case Study",
+        "title": "National Health Service",
+        "url": "/resources/case-studies/national-health-service",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-nhs.jpg",
+        "bgColor": "#0163ac"
+      }, {
+        "type": "Case Study",
+        "title": "Sworkit",
+        "url": "/resources/case-studies/sworkit",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-sworkit.jpg",
+        "bgColor": "#fbb363"
+      }, {
+        "type": "Case Study",
+        "title": "Airbus",
+        "url": "/resources/case-studies/airbus-helicopter",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-airbus-helicopter.jpg",
+        "bgColor": "#4466d6"
+      },
+      // {
+      //   "type": "Case Study",
+      //   "title": "Natural Cycles all-in on cross-platform",
+      //   "url": "#",
+      //   "action": "Read",
+      //   "bgImage": "/img/resource-center/casestudy-natural-cycles.jpg",
+      //   "bgColor": "#f8926b"
+      // },
+      {
+        "type": "Case Study",
+        "title": "Sense Corp",
+        "url": "/resources/case-studies/sense-corp",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-sensecorp.jpg",
+        "bgColor": "#394a6f"
+      }, {
+        "type": "Case Study",
+        "title": "Interactive Gaming Company",
+        "url": "/resources/case-studies/interactive-gaming-company",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-interactivegaming.jpg",
+        "bgColor": "#535582"
+      }, {
+        "type": "Case Study",
+        "title": "Pacifica",
+        "url": "/resources/case-studies/pacifica",
+        "target": "_self",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-pacifica.jpg",
+        "bgColor": "#044d63"
+      }, {
+        "type": "Case Study",
+        "title": "Untapp'd",
+        "url": "https://blog.ionicframework.com/built-with-ionic-untappd/",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-untappd.jpg",
+        "bgColor": "#f8926b"
+      }, {
+        "type": "Case Study",
+        "title": "Diesel",
+        "url": "https://blog.ionicframework.com/built-with-ionic-diesel-mobile-app/",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-diesel.jpg",
+        "bgColor": "#131c2a"
+      }, {
+        "type": "Case Study",
+        "title": "National Museum of African American History and Culture",
+        "url": "https://blog.ionicframework.com/built-with-ionic-2-the-national-museum-of-african-american-history-and-culture-mobile-app/",
+        "action": "Read",
+        "bgImage": "/img/resource-center/casestudy-natlmuseumofaahistory.jpg",
+        "bgColor": "#ffcf5a"
       }*/
     ]
   },

@@ -203,7 +203,7 @@ export class IonicSignupForm {
         </div>
 
         <p class="disclaimer">
-          By signing up you agree to our <a target="_blank" href="/tos">Terms of Service</a> and <a target="_blank" href="/privacy">Privacy Policy</a>
+          By signing up you agree to our <a target="_blank" href="/tos">Terms of Service</a> and <a target="_blank" href="/privacy-policy">Privacy Policy</a>
         </p>
 
       </section>}

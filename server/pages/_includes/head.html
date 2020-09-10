@@ -19,15 +19,15 @@
 {% if title %}
   <title>{{title}}</title>
 {% elif 'products-' in id %}
-  <title>Ionic Appflow - {{ id | replace('products-','') | title}}</title>
+  <title>Restvo Appflow - {{ id | replace('products-','') | title}}</title>
 {% elif isEnterprise %}
-  <title>Ionic for Enterprise - {{ id | replace('enterprise-','') | replace("-", " ") | title}}</title>
+  <title>Restvo for Enterprise - {{ id | replace('enterprise-','') | replace("-", " ") | title}}</title>
 {% elif name %}
-  <title>Ionic Framework - {{name}}</title>
+  <title>Restvo Framework - {{name}}</title>
 {% elif id %}
-  <title>Ionic Framework - {{id | replace("-", " ") | title}}</title>
+  <title>Restvo Framework - {{id | replace("-", " ") | title}}</title>
 {% else %}
-  <title>Ionic Framework</title>
+  <title>Restvo Framework</title>
 {% endif %}
 
 {% if 'products' in id %}
@@ -35,7 +35,7 @@
     {% set meta_image = 'https://ionicframework.com/img/meta/ionic-pro-og.png' %}
   {% endif %}
   {% if not meta_description %}
-    {% set meta_description = "The Ionic Appflow platform helps you build better apps on ionic framework with Appflow's integrated suite of tools and services designed for the entire app lifecycle." %}
+    {% set meta_description = "The Restvo Appflow platform helps you build better apps on ionic framework with Appflow's integrated suite of tools and services designed for the entire app lifecycle." %}
   {% endif %}
   {% set meta_keywords = "html5,javascript,mobile,drifty,ionic,hybrid,phonegap,cordova,native,ios,android,angularjs, ionic pro, ionic pro apps, ionic pro suite, ionic pro product, ionic pro tools" %}
 {% endif %}
@@ -49,7 +49,7 @@
 {% if meta_canonical %}
   <link rel="canonical" href="{{meta_canonical}}">
 {% else %}
-  <link rel="canonical" href="https://ionicframework.com{{requrl}}">
+  <link rel="canonical" href="https://restvo.com{{requrl}}">
 {% endif %}
 
 <!-- Social: Twitter -->
@@ -59,32 +59,32 @@
 {% if title %}
   <meta name="twitter:title" content="{{title}}">
 {% elif name %}
-  <meta name="twitter:title" content="Ionic Framework - {{name}}">
+  <meta name="twitter:title" content="Restvo Framework - {{name}}">
 {% elif id %}
-  <meta name="twitter:title" content="Ionic Framework - {{id | title}}">
+  <meta name="twitter:title" content="Restvo Framework - {{id | title}}">
 {% else %}
-  <meta name="twitter:title" content="Ionic Framework">
+  <meta name="twitter:title" content="Restvo Framework">
 {% endif %}
-<meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}Ionic is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
+<meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}Restvo is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
 <meta name="twitter:image" content="{% if meta_image %}{{meta_image}}{% else %}https://ionicframework.com/img/meta/ionic-framework-og.png{% endif %}">
 
 <!-- Social: Facebook / Open Graph -->
 <meta property="fb:page_id" content="1321836767955949">
-<meta property="og:url" content="https://ionicframework.com{{url}}">
+<meta property="og:url" content="https://restvo.com{{url}}">
 <meta property="og:type" content="article">
 {% if title %}
   <meta property="og:title" content="{{title}}">
 {% elif name %}
-  <meta property="og:title" content="Ionic Framework - {{name}}">
+  <meta property="og:title" content="Restvo Framework - {{name}}">
 {% elif id %}
-  <meta property="og:title" content="Ionic Framework - {{id | title}}">
+  <meta property="og:title" content="Restvo Framework - {{id | title}}">
 {% else %}
-  <meta property="og:title" content="Ionic Framework">
+  <meta property="og:title" content="Restvo Framework">
 {% endif %}
 <meta property="og:image" content="{% if meta_image %}{{meta_image}}{% else %}https://ionicframework.com/img/meta/ionic-framework-og.png{% endif %}"/>
-<meta property="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}Ionic is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
-<meta property="og:site_name" content="Ionic Framework">
-<meta property="article:publisher" content="https://www.facebook.com/ionicframework">
+<meta property="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}Restvo is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
+<meta property="og:site_name" content="Restvo Framework">
+<meta property="article:publisher" content="https://www.facebook.com/RestvoInc">
 <meta property="og:locale" content="en_US" />
 <link href="https://plus.google.com/+Ionicframework" rel="publisher" />
 

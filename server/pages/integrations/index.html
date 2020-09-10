@@ -3,15 +3,15 @@
 {% set header_style = 'transparent light' %}
 {% set cssPath = 'integrations/index' %}
 {% if categoryFilter.name == 'All' %}
-  {% set title = 'Integrations - Ionic'%}
+  {% set title = 'Integrations - Restvo'%}
 {% else %}
-  {% set title = categoryFilter.name + ' - Integrations - Ionic'%}
+  {% set title = categoryFilter.name + ' - Integrations - Restvo'%}
 {% endif %}
 
 {% if categoryFilter.description %}
   {% set meta_description = categoryFilter.description %}
 {% else %}
-  {% set meta_description = 'Ionic integrates with your favorite developer tools. Check out all the options Ionic provides for native integration with SOAP and REST APIs, ERPs so you can connect your favorite tools with Ionic.' %}
+  {% set meta_description = 'Restvo integrates with your favorite developer tools. Check out all the options Restvo provides for native integration with SOAP and REST APIs, ERPs so you can connect your favorite tools with Restvo.' %}
 {% endif %}
 
 {% block main %}
@@ -87,7 +87,7 @@
                     <label class="integrations-check__label" for="premier">
                       Premier
                       <tippy pos="top">
-                        Paid integration with official Ionic support
+                        Paid integration with official Restvo support
                       </tippy>
                     </label>
                   </div>
