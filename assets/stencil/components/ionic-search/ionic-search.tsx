@@ -32,7 +32,7 @@ export class IonicSearch {
   urls: any;
   URLS = () => {
     const api = 'https://api.swiftype.com/api/v1/public/engines/';
-    const key = '9oVyaKGPzxoZAyUo9Sm8';
+    const key = '1g3B7myscz5w__qtDtsR';
 
     return {
       autocomplete: query =>
@@ -136,7 +136,7 @@ export class IonicSearch {
            style={this.dragStyles}
            onTouchMove={e => this.results && this.results.length > 5 ?
             null : e.preventDefault()}>
-        <input type="text" onKeyUp={this.onKeyUp} placeholder="Search Ionic.."/>
+        <input type="text" onKeyUp={this.onKeyUp} placeholder="Search Restvo.."/>
 
         <ion-icon class={`search-static ${this.active ? ' active' : ''}`}
                   name="md-search"></ion-icon>
