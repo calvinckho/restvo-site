@@ -19,25 +19,25 @@
 {% if title %}
   <title>{{title}}</title>
 {% elif 'products-' in id %}
-  <title>Restvo Appflow - {{ id | replace('products-','') | title}}</title>
+  <title>Restvo - {{ id | replace('products-','') | title}}</title>
 {% elif isEnterprise %}
-  <title>Restvo for Enterprise - {{ id | replace('enterprise-','') | replace("-", " ") | title}}</title>
+  <title>Restvo - {{ id | replace('enterprise-','') | replace("-", " ") | title}}</title>
 {% elif name %}
-  <title>Restvo Framework - {{name}}</title>
+  <title>Restvo - {{name}}</title>
 {% elif id %}
-  <title>Restvo Framework - {{id | replace("-", " ") | title}}</title>
+  <title>Restvo - {{id | replace("-", " ") | title}}</title>
 {% else %}
-  <title>Restvo Framework</title>
+  <title>Restvo</title>
 {% endif %}
 
 {% if 'products' in id %}
   {% if not meta_image %}
-    {% set meta_image = 'https://ionicframework.com/img/meta/ionic-pro-og.png' %}
+    {% set meta_image = 'https://wee.nyc3.digitaloceanspaces.com/app/icon.png' %}
   {% endif %}
   {% if not meta_description %}
-    {% set meta_description = "The Restvo Appflow platform helps you build better apps on ionic framework with Appflow's integrated suite of tools and services designed for the entire app lifecycle." %}
+    {% set meta_description = "Restvo helps organizations build a fun, easy-to-use, and intentional learning and mentoring community through mobile technology." %}
   {% endif %}
-  {% set meta_keywords = "html5,javascript,mobile,drifty,ionic,hybrid,phonegap,cordova,native,ios,android,angularjs, ionic pro, ionic pro apps, ionic pro suite, ionic pro product, ionic pro tools" %}
+  {% set meta_keywords = "mentoring,church,discipleship,curriculum,small,group,coach,learning,platform,manage,management" %}
 {% endif %}
 
 {% if meta_description %}
@@ -45,7 +45,7 @@
 {% endif %}
 
 <meta name="author" content="Ionic">
-<meta name="keywords" content="{% if meta_keywords %}{{ meta_keywords }}{% else %}html5,javascript,mobile,drifty,ionic,hybrid,phonegap,cordova,native,ios,android,angularjs{% endif %}">
+<meta name="keywords" content="{% if meta_keywords %}{{ meta_keywords }}{% else %}mentoring,church,discipleship,curriculum,small,group,coach,learning,platform,manage,management{% endif %}">
 {% if meta_canonical %}
   <link rel="canonical" href="{{meta_canonical}}">
 {% else %}
@@ -54,19 +54,19 @@
 
 <!-- Social: Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@ionicframework">
-<meta name="twitter:creator" content="ionicframework">
+<meta name="twitter:site" content="@restvoinc">
+<meta name="twitter:creator" content="restvoinc">
 {% if title %}
   <meta name="twitter:title" content="{{title}}">
 {% elif name %}
-  <meta name="twitter:title" content="Restvo Framework - {{name}}">
+  <meta name="twitter:title" content="Restvo - {{name}}">
 {% elif id %}
-  <meta name="twitter:title" content="Restvo Framework - {{id | title}}">
+  <meta name="twitter:title" content="Restvo - {{id | title}}">
 {% else %}
-  <meta name="twitter:title" content="Restvo Framework">
+  <meta name="twitter:title" content="Restvo">
 {% endif %}
-<meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}Restvo is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
-<meta name="twitter:image" content="{% if meta_image %}{{meta_image}}{% else %}https://ionicframework.com/img/meta/ionic-framework-og.png{% endif %}">
+<meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}Restvo helps organizations build a fun, easy-to-use, and intentional learning and mentoring community through mobile technology.{% endif %}">
+<meta name="twitter:image" content="{% if meta_image %}{{meta_image}}{% else %}https://wee.nyc3.digitaloceanspaces.com/app/icon.png{% endif %}">
 
 <!-- Social: Facebook / Open Graph -->
 <meta property="fb:page_id" content="1321836767955949">
@@ -81,9 +81,9 @@
 {% else %}
   <meta property="og:title" content="Restvo Framework">
 {% endif %}
-<meta property="og:image" content="{% if meta_image %}{{meta_image}}{% else %}https://ionicframework.com/img/meta/ionic-framework-og.png{% endif %}"/>
-<meta property="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}Restvo is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
-<meta property="og:site_name" content="Restvo Framework">
+<meta property="og:image" content="{% if meta_image %}{{meta_image}}{% else %}https://wee.nyc3.digitaloceanspaces.com/app/icon.png{% endif %}"/>
+<meta property="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}Restvo helps organizations build a fun, easy-to-use, and intentional learning and mentoring community through mobile technology.{% endif %}">
+<meta property="og:site_name" content="Restvo Learning Platform">
 <meta property="article:publisher" content="https://www.facebook.com/RestvoInc">
 <meta property="og:locale" content="en_US" />
 <link href="https://plus.google.com/+Ionicframework" rel="publisher" />
