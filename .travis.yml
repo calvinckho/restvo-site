@@ -16,10 +16,10 @@ before_script:
   - npm install
 
 script:
-  - node server.js
+  - node site.js
 
 jobs:
   include:
     - stage: test
       name: "Run Express Server"
-      script: node server.js
+      script: node site.js

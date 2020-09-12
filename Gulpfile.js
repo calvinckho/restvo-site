@@ -157,7 +157,7 @@ const stencil = (done) => {
 
 const serverStart = (done) => {
   server = nodemon({
-    script: 'server.js',
+    script: 'site.js',
     watch: 'server',
   }).on('start', () => {
     if (browserSync.active) {
@@ -195,7 +195,7 @@ const run = gulp.parallel(
   serverStart
 )
 
-const watchServer = async () => gulp.watch(['server.js', 'server/**/*'], restartAndReload);
+const watchServer = async () => gulp.watch(['site.js', 'server/**/*'], restartAndReload);
 const watchStylesMain = async () => gulp.watch(['assets/scss/**/_*.scss', 'assets/scss/styles.scss'], gulp.series(stylesMain, justReload))
 const watchStylesOthers = async () => gulp.watch(['assets/scss/**/*.scss', '!assets/scss/styles.scss', '!assets/scss/**/_*.scss'], gulp.series(stylesOthers, justReload))
 const watchJS = async () => gulp.watch(['assets/js/**/*.js'], gulp.series(js, justReload));
