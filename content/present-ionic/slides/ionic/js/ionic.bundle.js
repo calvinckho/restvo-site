@@ -37991,7 +37991,7 @@ IonicModule
    * <ion-scroll delegate-handle="myScroll" ng-if="shouldShowScrollView">
    *   <div ng-controller="ScrollCtrl">
    *     <ion-list>
-   *       {% raw %}<ion-item ng-repeat="i in items">{{i}}</ion-item>{% endraw %}
+   *       {% raw %}<ion-item ng-repeat="i in items">{{i}}<div tabindex="0"></div><div tabindex="0"></div></ion-item>{% endraw %}
    *     </ion-list>
    *   </div>
    * </ion-scroll>
@@ -39042,7 +39042,7 @@ function($provide) {
  *     <ion-item ng-repeat="i in items">>
  *       {% raw %}Hello, {{i}}!{% endraw %}
  *       <ion-delete-button class="ion-minus-circled"></ion-delete-button>
- *     </ion-item>
+ *     <div tabindex="0"></div><div tabindex="0"></div></ion-item>
  *   </ion-list>
  * </ion-content>
  * ```
@@ -40801,7 +40801,7 @@ var ITEM_TPL_CONTENT =
 *
 * ```html
 * <ion-list>
-*   <ion-item>Hello!</ion-item>
+*   <ion-item>Hello!<div tabindex="0"></div><div tabindex="0"></div></ion-item>
 * </ion-list>
 * ```
 */
@@ -40872,7 +40872,7 @@ var ITEM_TPL_DELETE_BUTTON =
 *   <ion-item>
 *     <ion-delete-button class="ion-minus-circled"></ion-delete-button>
 *     Hello, list item!
-*   </ion-item>
+*   <div tabindex="0"></div><div tabindex="0"></div></ion-item>
 * </ion-list>
 * <ion-toggle ng-model="shouldShowDelete">
 *   Show Delete?
@@ -40968,7 +40968,7 @@ var ITEM_TPL_OPTION_BUTTONS =
 *     I love kittens!
 *     <ion-option-button class="button-positive">Share</ion-option-button>
 *     <ion-option-button class="button-assertive">Edit</ion-option-button>
-*   </ion-item>
+*   <div tabindex="0"></div><div tabindex="0"></div></ion-item>
 * </ion-list>
 * ```
 */
@@ -41028,7 +41028,7 @@ var ITEM_TPL_REORDER_BUTTON =
 *     <ion-reorder-button class="ion-navicon"
 *                         on-reorder="moveItem(item, $fromIndex, $toIndex)">
 *     </ion-reorder>
-*   </ion-item>
+*   <div tabindex="0"></div><div tabindex="0"></div></ion-item>
 * </ion-list>
 * ```
 * ```js
@@ -41189,7 +41189,7 @@ function keyboardAttachGetClientHeight(element) {
 * <ion-list>
 *   <ion-item ng-repeat="item in items">
 *     {% raw %}Hello, {{item}}!{% endraw %}
-*   </ion-item>
+*   <div tabindex="0"></div><div tabindex="0"></div></ion-item>
 * </ion-list>
 * ```
 *
@@ -41221,7 +41221,7 @@ function keyboardAttachGetClientHeight(element) {
 *                         on-reorder="reorderItem(item, $fromIndex, $toIndex)">
 *     </ion-reorder-button>
 *
-*   </ion-item>
+*   <div tabindex="0"></div><div tabindex="0"></div></ion-item>
 * </ion-list>
 * ```
 *
@@ -42222,7 +42222,7 @@ IonicModule
  *     on-refresh="doRefresh()">
  *   </ion-refresher>
  *   <ion-list>
- *     <ion-item ng-repeat="item in items"></ion-item>
+ *     <ion-item ng-repeat="item in items"><div tabindex="0"></div><div tabindex="0"></div></ion-item>
  *   </ion-list>
  * </ion-content>
  * ```

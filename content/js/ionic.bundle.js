@@ -51422,12 +51422,12 @@ System.register("ionic/components/item/item-sliding", ["angular2/angular2", "../
      *   <ion-item-sliding *ng-for="#item of items">
      *     <ion-item (click)="itemTapped(item)">
      *       {{item.title}}
-     *     </ion-item>
+     *     <div tabindex="0"></div><div tabindex="0"></div></ion-item>
      *     <ion-item-options>
      *       <button (click)="favorite(item)">Favorite</button>
      *       <button (click)="share(item)">Share</button>
      *     </ion-item-options>
-     *   </ion-item>
+     *   <div tabindex="0"></div><div tabindex="0"></div></ion-item>
      * </ion-list>
      * ```
      */
@@ -51530,14 +51530,14 @@ System.register("ionic/components/item/item", ["angular2/angular2"], function (_
      *   // default item
      *   <ion-item>
      *     {{item.title}}
-     *   </ion-item>
+     *   <div tabindex="0"></div><div tabindex="0"></div></ion-item>
      *
      *   // multiple item-content containers
      *   <ion-item>
      *     <ion-item-content>First Column</ion-item-content>
      *     <ion-item-content>Second Column</ion-item-content>
      *     <ion-item-content>Third Column</ion-item-content>
-     *   </ion-item>
+     *   <div tabindex="0"></div><div tabindex="0"></div></ion-item>
      *
      * </ion-list>
      *
