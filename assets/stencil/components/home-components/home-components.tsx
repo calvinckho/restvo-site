@@ -122,7 +122,7 @@ ${code}`;
       <ion-button fill="solid">Action</ion-button>
       <ion-icon name="heart” slot="end”></ion-icon>
       <ion-icon name="share” slot="end”></ion-icon>
-    <div tabindex="0"></div><div tabindex="0"></div></ion-item>
+    </ion-item>
   </ion-card-content>
 </ion-card>`,
       src: `
@@ -265,7 +265,7 @@ ${code}`;
                 <h2>Beast Epic</h2>
                 <p>Iron & Wine, 2017</p>
               </ion-label>
-            <div tabindex="0"></div><div tabindex="0"></div></ion-item>
+            </ion-item>
             <ion-item>
               <ion-thumbnail slot="start">
                 <img src="https://media.pitchfork.com/photos/5c7425267ad40308b4a8835c/1:1/w_320/JapaneseHouse_GoodAtFalling.jpg" />
@@ -274,7 +274,7 @@ ${code}`;
                 <h2>Good At Falling</h2>
                 <p>The Japanese House, 2019</p>
               </ion-label>
-            <div tabindex="0"></div><div tabindex="0"></div></ion-item>
+            </ion-item>
             <ion-item>
               <ion-thumbnail slot="start">
                 <img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Hallucinogen_%28EP%29_%28Front_Cover%29.png" />
@@ -283,7 +283,7 @@ ${code}`;
                 <h2>Hallucinogen</h2>
                 <p>Kelela, 2015</p>
               </ion-label>
-            <div tabindex="0"></div><div tabindex="0"></div></ion-item>
+            </ion-item>
             <ion-item>
               <ion-thumbnail slot="start">
                 <img src="https://upload.wikimedia.org/wikipedia/en/6/66/22%2C_A_Million_cover.jpg" />
@@ -292,7 +292,7 @@ ${code}`;
                 <h2>22, A Million</h2>
                 <p>Bon Iver, 2016</p>
               </ion-label>
-            <div tabindex="0"></div><div tabindex="0"></div></ion-item>
+            </ion-item>
             <ion-item>
               <ion-thumbnail slot="start">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/02/F%28x%29_4_Walls_CD_Cover.jpg/220px-F%28x%29_4_Walls_CD_Cover.jpg" />
@@ -301,7 +301,7 @@ ${code}`;
                 <h2>4 Walls</h2>
                 <p>f(x), 2015</p>
               </ion-label>
-            <div tabindex="0"></div><div tabindex="0"></div></ion-item>
+            </ion-item>
           </ion-list>
         </ion-content>
       </ion-app>`
