@@ -231,7 +231,7 @@ export class AuthConnectPromo {
             
             style={{
               'top': ((this.fullSize.height - this.overlay.height) / 2 + this.overlay.height + 12).toString().concat('px'),
-            }}>See how Auth Connect works</p>
+            }}>See the Restvo team at work</p>
           </div>
           
         </div>
