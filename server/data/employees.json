@@ -14,5 +14,37 @@
     "twitter":"https://twitter.com/restvocalvinho",
     "linkedin":"https://www.linkedin.com/in/calvin-ho-1426536",
     "image": "/img/team/IMG_0337-p-500.jpeg"
+  },
+  {
+    "name":"Alvin Lee",
+    "dept":"UX/UI Designer",
+    "description":null,
+    "twitter":null,
+    "linkedin":null,
+    "image": null
+  },
+  {
+    "name":"Julie Ma",
+    "dept":"UX/UI Designer",
+    "description":null,
+    "twitter":null,
+    "linkedin":null,
+    "image": null
+  },
+  {
+    "name":"Calix Huang",
+    "dept":"Software Engineer",
+    "description":null,
+    "twitter":null,
+    "linkedin":null,
+    "image": null
+  },
+  {
+    "name":"Kevin Tolentino",
+    "dept":"Software Engineer",
+    "description":null,
+    "twitter":null,
+    "linkedin":null,
+    "image": null
   }
 ]

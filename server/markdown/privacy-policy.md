@@ -260,7 +260,7 @@ If you have any questions about this Privacy Policy, or our collection, use, sha
 
 Attn: Privacy Team<br>
 Restvo Inc<br>
-PO 21064.<br>
+PO 21064<br>
 Castro Valley, CA<br>
 94546<br>
 Phone: +1 (510) 766-0763
@@ -319,7 +319,7 @@ To exercise any of the above listed rights, please contact us as set forth below
 
 Attn: Privacy Team<br>
 Restvo Inc<br>
-PO 21064.<br>
+PO 21064<br>
 Castro Valley, CA<br>
 94546<br>
 Phone: +1 (510) 766-0763
