@@ -4,7 +4,7 @@
      role="button"
      aria-haspopup="true"
      aria-expanded="false">
-    Use Cases {% include '_includes/svg/chevron-down.svg' %}
+     Features {% include '_includes/svg/chevron-down.svg' %}
   </a>
   <div class="dropdown-menu dropdown-menu--bar">
     <ul class="dropdown-menu--container container" id="dropdown-platform">
@@ -99,13 +99,21 @@
   </div>
 </li>
 
+<li class="{% if id.indexOf('enterprise') == 0%} active{% endif %}">
+  <a href="/about" id="btn-header-enterprise">About Us</a>
+</li>
+
+<li class="{% if id.indexOf('pricing') == 0%} active{% endif %}">
+  <a href="/pricing" id="btn-header-pricing">Pricing</a>
+</li>
+
 <li class="dropdown dropdown--has-container">
   <a href="#"
      class="dropdown-toggle"
      role="button"
      aria-haspopup="true"
      aria-expanded="false">
-      Features {% include '_includes/svg/chevron-down.svg' %}
+    Resources {% include '_includes/svg/chevron-down.svg' %}
   </a>
   <ul class="dropdown-menu dropdown-menu--container" id="dropdown-developers">
     <li>
@@ -128,31 +136,31 @@
           </a>
         </li>
         <li>
-        <!--<li>
-          <a href="https://ionicframework.com/docs/components" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;ui-components" id="btn-header-developers-ui-components">
-            UI Components
-          </a>
-        </li>
-        <li>
-          <a href="https://ionicframework.com/docs/native/community" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;native-apis" id="btn-header-developers-native-plugins">
-            Native APIs
-          </a>
-        </li>
-        <li>
-          <a href="https://ionicframework.com/react" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;react" id="btn-header-developers-react">
-            React
-          </a>
-        </li>
-        <li>
-          <a href="https://ionicframework.com/docs/angular/overview" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;angular" id="btn-header-developers-angular">
-            Angular
-          </a>
-        </li>
-        <li>
-          <a href="https://ionicframework.com/docs/cli" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;cli" id="btn-header-developers-setup-installation">
-            CLI
-          </a>
-        </li>-->
+          <!--<li>
+            <a href="https://ionicframework.com/docs/components" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;ui-components" id="btn-header-developers-ui-components">
+              UI Components
+            </a>
+          </li>
+          <li>
+            <a href="https://ionicframework.com/docs/native/community" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;native-apis" id="btn-header-developers-native-plugins">
+              Native APIs
+            </a>
+          </li>
+          <li>
+            <a href="https://ionicframework.com/react" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;react" id="btn-header-developers-react">
+              React
+            </a>
+          </li>
+          <li>
+            <a href="https://ionicframework.com/docs/angular/overview" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;angular" id="btn-header-developers-angular">
+              Angular
+            </a>
+          </li>
+          <li>
+            <a href="https://ionicframework.com/docs/cli" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;cli" id="btn-header-developers-setup-installation">
+              CLI
+            </a>
+          </li>-->
       </ul>
 
       <ul class="dropdown-menu__column">
@@ -221,13 +229,5 @@
   </ul>{# end .dropdown-menu__container #}
 </li>
 
-<li class="{% if id.indexOf('enterprise') == 0%} active{% endif %}">
-  <a href="/about" id="btn-header-enterprise">About Us</a>
-</li>
-
-<li class="{% if id.indexOf('pricing') == 0%} active{% endif %}">
-  <a href="/pricing" id="btn-header-pricing">Pricing</a>
-</li>
-
 <!--<li><a href="/blog" id="btn-header-ecosystem-blog">Blog</a></li>-->
-<li><a href="/resources" id="btn-header-resources">Resources</a></li>
+<!--<li><a href="/resources" id="btn-header-resources">Resources</a></li>-->
