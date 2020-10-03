@@ -12,12 +12,12 @@ export class IonicToggleTab {
   @State() hidden = true;
 
   @Method()
-  hide() {
+  async hide() {
     this.hidden = true;
   }
 
   @Method()
-  show() {
+  async show() {
     this.hidden = false;
   }
 

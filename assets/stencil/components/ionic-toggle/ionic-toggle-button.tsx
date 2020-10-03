@@ -14,12 +14,12 @@ export class IonicToggleButton {
   @State() selected = false;
 
   @Method()
-  deselect() {
+  async deselect() {
     this.selected = false;
   }
 
   @Method()
-  select() {
+  async select() {
     this.selected = true;
   }
 

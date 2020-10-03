@@ -2,33 +2,17 @@
   {
     "name":"Alex Sung",
     "dept":"Co-Founder & CEO",
-    "description":"Adam was once Marty McFly in another life, but is now back to the future of open source heading up all things Ionic Framework. When not slinging code, he can be found hanging out with his wife and kids, befriending dogs, and traveling space and time in his Delorean.",
-    "twitter":"https://twitter.com/adamdbradley",
-    "linkedin":"https://www.linkedin.com/in/adamdbradley/",
+    "description":null,
+    "twitter":"https://twitter.com/Onfire4jc",
+    "linkedin":"https://www.linkedin.com/in/alextimsung/",
     "image":"/img/team/IMG_0362-p-500.jpeg"
   },
   {
     "name":"Calvin Ho",
     "dept":"Co-Founder & COO",
     "description":null,
-    "twitter":null,
-    "linkedin":"https://www.linkedin.com/in/alex-roberts-827009109",
+    "twitter":"https://twitter.com/restvocalvinho",
+    "linkedin":"https://www.linkedin.com/in/calvin-ho-1426536",
     "image": "/img/team/IMG_0337-p-500.jpeg"
-  },
-  {
-    "name":"Aly Lawton Yoder",
-    "dept":"Customer Success",
-    "description":null,
-    "twitter":null,
-    "linkedin": "https://www.linkedin.com/in/aly-yoder-98112310a",
-    "image": "/img/team/aly-yoder.png"
-  },
-  {
-    "name":"Andrew Haire",
-    "dept":"VP of Marketing",
-    "description":null,
-    "twitter":"https://twitter.com/achaire",
-    "linkedin": "https://www.linkedin.com/in/andrewhaire/",
-    "image": "/img/team/andrew-haire.png"
   }
 ]
