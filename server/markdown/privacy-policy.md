@@ -6,11 +6,11 @@ meta_description: We take the security of your information seriously, and work h
 
 # Restvo Inc. Privacy Policy
 
-*LAST UPDATED: May 18, 2020*
+*LAST UPDATED: Oct 1, 2020*
 
-Welcome to the Restvo Privacy Policy (“**Privacy Policy**”). We take the security of your information seriously, and work hard to maintain secure websites and services for your use. Drifty Co. (d/b/a Restvo), together with its affiliates (collectively, “**Restvo**”, “**we**”, “**us**”), provides services and tools for the development and design of cross-platform applications, including hybrid mobile applications, using certain web technologies and certain ancillary applications, analytics, documentation, and services.
+Welcome to the Restvo Privacy Policy (“**Privacy Policy**”). We take the security of your information seriously, and work hard to maintain secure websites and services for your use. Drifty Co. (d/b/a Restvo), together with its affiliates (collectively, “**Restvo**”, “**we**”, “**us**”), provides services and tools for the development of a learning management system, using certain web technologies and certain ancillary applications, analytics, documentation, and services.
 
-This Privacy Policy is intended to better help you understand our practices regarding information collected through (i) our websites including but not limited to Restvoframework.com, Restvo.io, ngcordova.com, and our other affiliated websites (collectively, “Websites”), (ii) our products and services, and (iii) any other digital properties that we own or control (collectively, the “**Restvo** **Services**” or “**Services**”) whether you are a customer that uses Restvo Services, an end user of our customers’ services that utilize our technology solutions, or whether you are simply visiting our Websites. This Privacy Policy describes how Restvo collects, processes, shares and retains the personal information (or in the EU/Switzerland: “personal data”) you provide to us.
+This Privacy Policy is intended to better help you understand our practices regarding information collected through (i) our websites including but not limited to Restvo.com, app.Restvo.com, and our other affiliated websites (collectively, “Websites”), (ii) our products and services, and (iii) any other digital properties that we own or control (collectively, the “**Restvo** **Services**” or “**Services**”) whether you are a customer that uses Restvo Services, an end user of our customers’ services that utilize our technology solutions, or whether you are simply visiting our Websites. This Privacy Policy describes how Restvo collects, processes, shares and retains the personal information (or in the EU/Switzerland: “personal data”) you provide to us.
 
 **When you interact with the Restvo Services, you consent to such collection, processing, sharing and retaining of information (including personal information/personal data) as described in this Privacy Policy and our Terms of Service. If you do not consent to the terms of this Privacy Policy and our Terms of Service, do not continue to interact with or use the Restvo Services. **
 
@@ -218,7 +218,7 @@ To the extent permitted by applicable law, we may retain information for as long
 
 To the extent required by applicable law, or in our discretion otherwise, we will allow customers and individuals to limit use of personal information. If at any time after providing us with your personal information such information changes or you change your mind about receiving information from us, you may request access to your data or that your data be changed.
 
-If you no longer wish to receive our communications, you may opt-out of receiving them at any time by following the instructions included in each communication, by going to our Unsubscribe page https://Restvoframework.com/unsubscribe, or by mail at Drifty Co. (d/b/a Restvo), 121 S. Pinckney St. Suite 300 Madison, WI 53703; Attn: Privacy.
+If you no longer wish to receive our communications, you may opt-out of receiving them at any time by following the instructions included in each communication, by going to our Notifications page https://app.restvo.com, Settings -> Notifications, or by mail to Restvo Inc., PO 21064 Castro Valley, CA 94546; Attn: Privacy.
 
 <span id="CrossDevice" class="anchor"></span>**7. CROSS-DEVICE TRACKING**
 
@@ -256,15 +256,14 @@ Under California’s “Shine the Light” law, California residents who provide
 
 <span id="Questions" class="anchor"></span>**14. QUESTIONS, COMPLAINTS AND DISPUTES**
 
-If you have any questions about this Privacy Policy, or our collection, use, sharing or storage of information about you, you can contact us by email at **privacy@Restvo.io**, or write to the following address:
+If you have any questions about this Privacy Policy, or our collection, use, sharing or storage of information about you, you can contact us by email at **hello@restvo.com**, or write to the following address:
 
 Attn: Privacy Team<br>
-Drifty Co. (d/b/a Restvo)<br>
-121 S. Pinckney St.<br>
-Suite 300<br>
-Madison, WI<br>
-53703<br>
-Phone: +1 (608) 807-5560
+Restvo Inc<br>
+PO 21064.<br>
+Castro Valley, CA<br>
+94546<br>
+Phone: +1 (510) 766-0763
 
 A.  **CLASS ACTION WAIVER. YOU AND WE AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR OUR INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.**
 
@@ -274,9 +273,9 @@ B.  **DISPUTE RESOLUTION**
 
 <span id="Updates" class="anchor"></span>**15. PRIVACY POLICY UPDATES**
 
-Restvo may update this Privacy Policy from time to time in our sole discretion to reflect changes to our information and privacy practices. Restvo will post any updated Privacy Policy on this page at https:// Restvoframework.com/privacy-policy or in the Restvo Services, or with any notice to individual users if required by applicable law. Continued use of the Restvo Services after any such modifications constitutes acceptance to any such modified Privacy Policy. Restvo encourages you to review this Privacy Policy regularly for any changes. The date of last revision is shown at the “*Last Updated*” legend at the top of this page.
+Restvo may update this Privacy Policy from time to time in our sole discretion to reflect changes to our information and privacy practices. Restvo will post any updated Privacy Policy on this page at https://restvo.com/privacy-policy or in the Restvo Services, or with any notice to individual users if required by applicable law. Continued use of the Restvo Services after any such modifications constitutes acceptance to any such modified Privacy Policy. Restvo encourages you to review this Privacy Policy regularly for any changes. The date of last revision is shown at the “*Last Updated*” legend at the top of this page.
 
-If you have any questions regarding our Privacy Policy, the practices of this site, or your dealings with us, please feel free to email us at privacy@Restvoframework.com.
+If you have any questions regarding our Privacy Policy, the practices of this site, or your dealings with us, please feel free to email us at hello@restvo.com.
 
 <span id="Euro" class="anchor"></span>**EUROPEAN PRIVACY POLICY**
 
@@ -319,11 +318,10 @@ To exercise any of the above listed rights, please contact us as set forth below
 **Data Protection Contact.** Unless otherwise specified, the data controller of personal data uploaded to the Restvo Services is the Restvo customer for whom such Services are provided and Restvo is the processor of such data for such customer. In certain cases, Restvo may also be the controller of aggregated, anonymous or pseudonymous data relating to the Restvo Services. Our Data Protection Contact for the personal information collected in connection with the Restvo Services is:
 
 Attn: Privacy Team<br>
-Drifty Co. (d/b/a Restvo)<br>
-121 S. Pinckney St.<br>
-Suite 300<br>
-Madison, WI<br>
-53703<br>
-Phone: +1 (608) 807-5560
+Restvo Inc<br>
+PO 21064.<br>
+Castro Valley, CA<br>
+94546<br>
+Phone: +1 (510) 766-0763
 
 <p><br></p>
