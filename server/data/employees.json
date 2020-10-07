@@ -21,7 +21,7 @@
     "description":null,
     "twitter":null,
     "linkedin":null,
-    "image": null
+    "image": "https://wee.nyc3.digitaloceanspaces.com/users/5d8561b404d73d0732015ae4/1586827757173i54/image.jpg"
   },
   {
     "name":"Julie Ma",
@@ -29,7 +29,7 @@
     "description":null,
     "twitter":null,
     "linkedin":null,
-    "image": null
+    "image": "https://wee.nyc3.digitaloceanspaces.com/users/5edc460cb257a55e9c25dfc7/15914960413793hz/image.jpg"
   },
   {
     "name":"Calix Huang",
@@ -37,7 +37,7 @@
     "description":null,
     "twitter":null,
     "linkedin":null,
-    "image": null
+    "image": "https://wee.nyc3.digitaloceanspaces.com/users/5e5d775019b95d77f70b2c39/15831840628012zb/calix-center.jpeg"
   },
   {
     "name":"Kevin Tolentino",
@@ -45,6 +45,6 @@
     "description":null,
     "twitter":null,
     "linkedin":null,
-    "image": null
+    "image": "https://wee.nyc3.digitaloceanspaces.com/users/5f2cfc44de18fe7979f01091/15968376008930lp/kevin-tolentino.jpg"
   }
 ]
