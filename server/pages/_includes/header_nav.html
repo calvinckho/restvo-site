@@ -1,3 +1,10 @@
+<li class="{% if id.indexOf('enterprise') == 0%} active{% endif %}">
+  <a href="/about" id="btn-header-enterprise">About Us</a>
+</li>
+
+<li class="{% if id.indexOf('pricing') == 0%} active{% endif %}">
+  <a href="/pricing" id="btn-header-pricing">Pricing</a>
+</li>
 <li class="dropdown dropdown--has-container">
   <a href="#"
      class="dropdown-toggle"
@@ -8,7 +15,7 @@
   </a>
   <div class="dropdown-menu dropdown-menu--bar">
     <ul class="dropdown-menu--container container" id="dropdown-platform">
-      <li class=" dropdown-menu__row">
+      <li class="dropdown-menu__row">
         <ul class="dropdown-menu__column dropdown-menu__sprite-child">
           <li><span class="dropdown-menu__text--l2">Churches</span></li>
           <li>
@@ -98,16 +105,33 @@
     </ul>{# end .dropdown-menu__container #}
   </div>
 </li>
-
-<li class="{% if id.indexOf('enterprise') == 0%} active{% endif %}">
-  <a href="/about" id="btn-header-enterprise">About Us</a>
-</li>
-
-<li class="{% if id.indexOf('pricing') == 0%} active{% endif %}">
-  <a href="/pricing" id="btn-header-pricing">Pricing</a>
-</li>
-
 <li class="dropdown dropdown--has-container">
+  <a href="#"
+     class="dropdown-toggle"
+     role="button"
+     aria-haspopup="true"
+     aria-expanded="false">
+    Support {% include '_includes/svg/chevron-down.svg' %}
+  </a>
+  <ul class="dropdown-menu dropdown-menu--container" id="dropdown-support">
+    <li class=" dropdown-menu__row">
+      <ul class="dropdown-menu__column">
+        <li><span class="dropdown-menu__text--l2">Topics</span></li>
+        <li>
+          <a href="/resources" class="dropdown-menu__text--l3 icon--docs">
+            Restvo Docs
+          </a>
+        </li>
+        <li>
+          <a href="/support" class="dropdown-menu__text--l3 icon--help-center">
+            Help Center
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>{# end .dropdown-menu__container #}
+</li>
+<!--<li class="dropdown dropdown&#45;&#45;has-container">
   <a href="#"
      class="dropdown-toggle"
      role="button"
@@ -115,18 +139,18 @@
      aria-expanded="false">
     Resources {% include '_includes/svg/chevron-down.svg' %}
   </a>
-  <ul class="dropdown-menu dropdown-menu--container" id="dropdown-developers">
+  <ul class="dropdown-menu dropdown-menu&#45;&#45;container" id="dropdown-developers">
     <li>
-      <a href="/resources/documentation" class="dropdown-menu__text--l3 icon--docs">
+      <a href="/resources/documentation" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;docs">
         Restvo Docs
         {% include '_includes/svg/ico-forward.svg' %}
       </a>
     </li>
     <li class=" dropdown-menu__row">
       <ul class="dropdown-menu__column">
-        <li><span class="dropdown-menu__text--l2">Topics</span></li>
+        <li><span class="dropdown-menu__text&#45;&#45;l2">Topics</span></li>
         <li>
-          <a href="/denominations" class="dropdown-menu__text--l3 icon&#45;&#45;ui-components">
+          <a href="/denominations" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;ui-components">
             Coaching Management
           </a>
         </li>
@@ -136,7 +160,7 @@
           </a>
         </li>
         <li>
-          <!--<li>
+          &lt;!&ndash;<li>
             <a href="https://ionicframework.com/docs/components" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;ui-components" id="btn-header-developers-ui-components">
               UI Components
             </a>
@@ -160,12 +184,12 @@
             <a href="https://ionicframework.com/docs/cli" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;cli" id="btn-header-developers-setup-installation">
               CLI
             </a>
-          </li>-->
+          </li>&ndash;&gt;
       </ul>
 
       <ul class="dropdown-menu__column">
-        <li><span class="dropdown-menu__text--l2">Community</span></li>
-        <!--&lt;!&ndash;<li>
+        <li><span class="dropdown-menu__text&#45;&#45;l2">Community</span></li>
+        &lt;!&ndash;&lt;!&ndash;<li>
           <a href="/community" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;hub">
             Hub
           </a>
@@ -174,37 +198,37 @@
           <a href="https://www.youtube.com/channel/UChYheBnVeCfhCmqZfCUdJQw" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;youtube">
             YouTube
           </a>
-        </li>-->
+        </li>&ndash;&gt;
         <li>
           <a href="https://github.com/calvinckho/restvo-app" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;github">
             GitHub
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/restvoinc" class="dropdown-menu__text--l3 icon--twitter">
+          <a href="https://twitter.com/restvoinc" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;twitter">
             Twitter
           </a>
         </li>
-        <!--<li>
+        &lt;!&ndash;<li>
           <a href="https://forum.ionicframework.com/" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;forum">
             Forum
           </a>
-        </li>-->
+        </li>&ndash;&gt;
       </ul>
 
       <ul class="dropdown-menu__column">
-        <li><span class="dropdown-menu__text--l2">Why Restvo?</span></li>
+        <li><span class="dropdown-menu__text&#45;&#45;l2">Why Restvo?</span></li>
         <li>
-          <a href="/resources/articles/story-of-restvo" class="dropdown-menu__text--l3 icon--resources">
+          <a href="/resources/articles/story-of-restvo" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;resources">
             The Story of Restvo
           </a>
         </li>
         <li>
-          <a href="/resources/articles/7-ways-become-better-mentor" class="dropdown-menu__text--l3 icon--resources">
+          <a href="/resources/articles/7-ways-become-better-mentor" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;resources">
             Become a Better Mentor
           </a>
         </li>
-        <!--<li>
+        &lt;!&ndash;<li>
           <a href="/resources/articles/ionic-vs-flutter-comparison-guide" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;resources">
             Restvo vs Flutter
           </a>
@@ -223,11 +247,11 @@
           <a href="/resources/articles/how-hybrid-app-development-helps-deliver-great-ux" class="dropdown-menu__text&#45;&#45;l3 icon&#45;&#45;resources">
             Delivering Great UX
           </a>
-        </li>-->
+        </li>&ndash;&gt;
       </ul>
     </li>{# end .dropdown-menu__row #}
   </ul>{# end .dropdown-menu__container #}
-</li>
+</li>-->
 
 <!--<li><a href="/blog" id="btn-header-ecosystem-blog">Blog</a></li>-->
 <!--<li><a href="/resources" id="btn-header-resources">Resources</a></li>-->
