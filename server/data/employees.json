@@ -46,5 +46,21 @@
     "twitter":null,
     "linkedin":null,
     "image": "https://wee.nyc3.digitaloceanspaces.com/users/5f2cfc44de18fe7979f01091/15968376008930lp/kevin-tolentino.jpg"
+  },
+  {
+    "name":"Nate Realiza",
+    "dept":"Customer Success Intern",
+    "description":null,
+    "twitter":null,
+    "linkedin":null,
+    "image": "https://wee.nyc3.digitaloceanspaces.com/users/5e9b26f792ba900b11ab6370/1587226444707128/image.jpg"
+  },
+  {
+    "name":"MaryJane Pryor",
+    "dept":"Customer Success Intern",
+    "description":null,
+    "twitter":null,
+    "linkedin":null,
+    "image": "https://wee.nyc3.digitaloceanspaces.com/users/5dc2f4878d035854261c9b50/15903524319779il/image.jpg"
   }
 ]
