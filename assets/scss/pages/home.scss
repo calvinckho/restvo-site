@@ -114,12 +114,12 @@
 
       @media (max-width: $screen-md-max) {
         flex-direction: column;
-        
+
         >:nth-child(1) {
           flex: 1;
           margin-bottom: 16px;
         }
-  
+
         >:nth-child(2) {
           flex: 1;
           margin-right: auto;
@@ -408,14 +408,14 @@
           sup {
             font-size: 32px;
           }
-  
+
           sup {
             vertical-align: 8px;
           }
-  
+
           sub {
             vertical-align: 8px;
-  
+
             small {
               font-size: 28px;
             }
@@ -532,7 +532,7 @@
 
     @media (max-width: $screen-sm-max) {
       padding-bottom: 800px;
-      
+
       .graphics {
         top: auto;
         bottom: 0;
@@ -705,8 +705,8 @@
     &__highlight {
       background: transparent;
       position: absolute;
-      box-shadow: 
-        0px 8px 16px rgba(2, 8, 20, 0.1), 
+      box-shadow:
+        0px 8px 16px rgba(2, 8, 20, 0.1),
         0px 4px 8px rgba(2, 8, 20, 0.08);
       border-radius: 40px;
       box-sizing: content-box;
@@ -759,4 +759,8 @@
       padding: 14px 15px;
     }
   }
+
+    .performance-background {
+    background: linear-gradient(270deg, #6EB1FF 0%, #4D8DFF 100%);
+    }
 }
