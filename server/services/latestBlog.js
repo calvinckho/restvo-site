@@ -1,3 +1,4 @@
+const fetch     = require('cross-fetch');
 // super simple service to check for the latest blog post every 15 mins
 class LatestBlogService {
   constructor() {

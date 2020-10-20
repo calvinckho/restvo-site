@@ -1,4 +1,5 @@
 var parseUrl        = require('parseurl');
+var fetch     = require('cross-fetch');
 var config          = require('./config');
 var employees       = require('./data/employees');
 var resources       = require('./data/resources');
