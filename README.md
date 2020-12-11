@@ -16,4 +16,4 @@ Repo for the restvo.com site.
 
 ## Deploy
 
-Changes to master are automatically deployed to  [dev.restvo.com/](https://dev.restvo.com/). Periodically, the Restvo team will inspect staging and promote it to [restvo.com](https://restvo.com).
+Changes to master are automatically deployed to  [stage.restvo.com/](https://stage.restvo.com/). Periodically, the Restvo team will inspect staging and promote it to [restvo.com](https://restvo.com).
