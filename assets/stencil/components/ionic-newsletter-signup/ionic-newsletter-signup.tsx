@@ -64,8 +64,8 @@ export class IonicNewsletterSignup {
     var xhr = new XMLHttpRequest();
     var url = [
       'https://api.hsforms.com/submissions/v3/integration/submit',
-      '3776657',
-      '76e5f69f-85fd-4579-afce-a1892d48bb32'].join('/');
+      '4389946',
+      '2c6bba5d-0275-415e-bc12-2205ddbfc0a7'].join('/');
 
     const hutkMatch = document.cookie.match && document.cookie.match(/hubspotutk=(.*?);/)
     const hutk = hutkMatch ? hutkMatch[1] : ''

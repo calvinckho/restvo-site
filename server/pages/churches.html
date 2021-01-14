@@ -111,16 +111,17 @@
 
 <nav id="sticky-bar" style="z-index: 10;">
   <ul class="container nav" role="tablist">
-    <li role="tab"><a class="anchor" data-offset="150" href="#native">Journey</a></li>
-    <li role="tab"><a class="anchor" data-offset="150" href="#plugins">Mentoring</a></li>
+    <li role="tab"><a class="anchor" data-offset="150" href="#journey">Journey</a></li>
+    <li role="tab"><a class="anchor" data-offset="150" href="#mentoring">Mentoring</a></li>
     <!--<li role="tab"><a class="anchor" data-offset="150" href="#supGuidance"></a></li>-->
-    <li role="tab"><a class="anchor" data-offset="50" href="#supGuidance">Groups</a></li>
-    <li role="tab"><a class="anchor" data-offset="50" href="#keyFeatures">Program</a></li>
+    <li role="tab"><a class="anchor" data-offset="50" href="#groups">Groups</a></li>
+    <li role="tab"><a class="anchor" data-offset="50" href="#program">Program</a></li>
   </ul>
 </nav>
 
 <main>
   <div class="container main1 stack box">
+    <div id="journey"></div>
     <section id="native" class="box expand:w flex:r:w">
       <div id="nativeTitle" class="box">
         <h2 class="box">Journey</h2>
@@ -179,7 +180,7 @@
       </div>
     </div>
   </section>-->
-
+  <div id="mentoring"></div>
   <div class="container main1 stack">
     <section id="plugins" class="strip box">
       <div id="pluginsText" class="box stack">
@@ -217,6 +218,7 @@
       </div>   
     </section>
 
+    <div id="groups"></div>
     <section id="supGuidance" class="strip">
       <article id="support" class="stack box">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 366 176"><defs/><path fill="#FED352" d="M321.14 35.43h-193.3a11.87 11.87 0 00-10.94 7.28c-.6 1.43-.9 2.97-.9 4.52V170.6a5.4 5.4 0 005.74 5.39 5.43 5.43 0 002.75-.94l23.06-15.8h173.6a11.85 11.85 0 0011.82-11.8V47.24a11.77 11.77 0 00-11.83-11.8z"/><path fill="#C4D0DF" d="M96.65 56.38H11.84A11.87 11.87 0 00.9 63.66c-.6 1.43-.9 2.96-.9 4.5v63.85a11.76 11.76 0 007.3 10.9c1.44.59 2.98.9 4.54.9h82.8l10.63 7.28a2.06 2.06 0 003.22-1.69V68.17a11.75 11.75 0 00-7.3-10.9c-1.44-.59-2.98-.9-4.54-.9z"/><path fill="#21426B" d="M48.12 115.32a5.37 5.37 0 015.4-5.38 5.41 5.41 0 015.4 5.38 5.37 5.37 0 01-5.4 5.38 5.41 5.41 0 01-5.4-5.38zm.58-33.4a4 4 0 014-4.2h1.65a4 4 0 014 4.2l-1.1 21.67a3.73 3.73 0 01-7.45 0l-1.1-21.68z"/><path stroke="#B68D2A" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6" d="M142.73 61h49"/><path stroke="#B68D2A" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6" d="M142.73 79h133" opacity=".8"/><path stroke="#B68D2A" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6" d="M142.73 97h106" opacity=".6"/><path stroke="#B68D2A" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6" d="M142.73 115h148" opacity=".5"/><path stroke="#B68D2A" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6" d="M142.73 133h85" opacity=".3"/><path fill="#21426B" stroke="#fff" stroke-width="4" d="M363.73 40a38 38 0 11-76 0 38 38 0 0176 0z"/><path stroke="#DEE3EA" stroke-width="3" d="M326.23 56.79a17.28 17.28 0 100-34.57 17.28 17.28 0 000 34.57z"/><path stroke="#DEE3EA" stroke-linecap="round" stroke-width="3" d="M324.75 41.98h10.86M324.75 41.98V30.12"/><defs><linearGradient id="support_paint0_linear" x1="224.49" x2="224.49" y1="35.43" y2="176" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDA6B"/><stop offset="1" stop-color="#FED352"/></linearGradient></defs></svg>
@@ -273,6 +275,7 @@
     </div>
   </section>
 
+  <div id="program"></div>
   <div id="keyFeatures" class="box main3">
     <section class="flex:r:w container tag-along">
       <div class="switcher">
@@ -280,7 +283,7 @@
           <div id="keyFeaturesTitle" class="box">
             <div class="superTitle">Get Organized</div>
             <h2>Create Programs for Growth</h2>
-            <p class="p1 box">Restvo structures its resources in ways that is clear and usable. Community has multiple programs that are the same as ministry areas in your church. Restvo helps you think through the process with which people can grow in each ministry area.</p>
+            <p class="p1 box">Restvo structures its resources in ways that is clear and usable. Community manages ministry areas in Programs. Restvo helps you think through the processes with which people can grow in each ministry area.</p>
           </div>
           <div id="keyFeaturesContent" class="box">
             <article class="flex box">
@@ -335,34 +338,13 @@
   </div>
 </main>
 
-<aside id="get-started" class="container box">
-  <div class="get-started center hubspot-override hubspot-override--large hubspot-override--measure">
-    <hgroup class="content">
-      <div class="superTitle center:txt">Get started with</div>
-      <h2 class="center:txt">Restvo Growth Plan</h2>
-    </hgroup>
-    <!--[if lte IE 8]>
-    <script charset="utf-8"
-            type="text/javascript"
-            src="//js.hsforms.net/forms/v2-legacy.js"></script>
-    <![endif]-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-    <script>
-      hbspt.forms.create({
-        portalId: "4389946",
-        formId: "d8e1040c-cb7f-4d7d-a938-94600f522c04"
-      });
-    </script>
-  </div>
-</aside>
-
 <!--<section class="resources">
   <div class="container">
     <additional-resources page="native"></additional-resources>
   </div>
 </section>-->
 
-<!--{% include '_includes/promos/newsletter-signup.html' %}-->
+{% include '_includes/promos/newsletter-signup.html' %}
 <div class="modal collapse fade modal--form"
      id="modal-data-sheet"
      tabindex="-1"
