@@ -1,0 +1,140 @@
+{% import "_includes/macros.html" as macros %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{% if dev %}
+  {% if not noGlobalStyles %}
+  <link href="/css/styles.css?v=f3ebc000e9ce91d103fa3b22ead3c97f" rel="stylesheet">
+  {% endif %}
+{% else %}
+  {% if not noGlobalStyles %}
+  <link href="/css/styles.min.css?v=e4cf4aa52703c362f4e9b8032683687e" rel="stylesheet">
+  {% endif %}
+{% endif %}
+
+{% if cssPath %}
+  {{ macros.pageSpecificCSS(dev, cssPath) }}
+{% endif %}
+
+{% if title %}
+  <title>{{title}}</title>
+{% elif 'products-' in id %}
+  <title>Restvo - {{ id | replace('products-','') | title}}</title>
+{% elif isEnterprise %}
+  <title>Restvo - {{ id | replace('enterprise-','') | replace("-", " ") | title}}</title>
+{% elif name %}
+  <title>Restvo - {{name}}</title>
+{% elif id %}
+  <title>Restvo - {{id | replace("-", " ") | title}}</title>
+{% else %}
+  <title>Restvo</title>
+{% endif %}
+
+{% if 'products' in id %}
+  {% if not meta_image %}
+    {% set meta_image = 'https://d2z4pehxidbzz4.cloudfront.net/app/icon.png' %}
+  {% endif %}
+  {% if not meta_description %}
+    {% set meta_description = "Restvo helps organizations build a fun, easy-to-use, and intentional learning and mentoring community through mobile technology." %}
+  {% endif %}
+  {% set meta_keywords = "mentoring,church,discipleship,curriculum,small,group,coach,learning,platform,manage,management" %}
+{% endif %}
+
+{% if meta_description %}
+  <meta name="description" content="{{ meta_description }}">
+{% endif %}
+
+<meta name="author" content="Ionic">
+<meta name="keywords" content="{% if meta_keywords %}{{ meta_keywords }}{% else %}mentoring,church,discipleship,curriculum,small,group,coach,learning,platform,manage,management{% endif %}">
+{% if meta_canonical %}
+  <link rel="canonical" href="{{meta_canonical}}">
+{% else %}
+  <link rel="canonical" href="https://restvo.com{{requrl}}">
+{% endif %}
+
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@restvoinc">
+<meta name="twitter:creator" content="restvoinc">
+{% if title %}
+  <meta name="twitter:title" content="{{title}}">
+{% elif name %}
+  <meta name="twitter:title" content="Restvo - {{name}}">
+{% elif id %}
+  <meta name="twitter:title" content="Restvo - {{id | title}}">
+{% else %}
+  <meta name="twitter:title" content="Restvo">
+{% endif %}
+<meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}Restvo helps organizations build a fun, easy-to-use, and intentional learning and mentoring community through mobile technology.{% endif %}">
+<meta name="twitter:image" content="{% if meta_image %}{{meta_image}}{% else %}https://d2z4pehxidbzz4.cloudfront.net/app/icon.png{% endif %}">
+
+<!-- Social: Facebook / Open Graph -->
+<meta property="fb:page_id" content="1321836767955949">
+<meta property="og:url" content="https://restvo.com{{url}}">
+<meta property="og:type" content="article">
+{% if title %}
+  <meta property="og:title" content="{{title}}">
+{% elif name %}
+  <meta property="og:title" content="Restvo Framework - {{name}}">
+{% elif id %}
+  <meta property="og:title" content="Restvo Framework - {{id | title}}">
+{% else %}
+  <meta property="og:title" content="Restvo Framework">
+{% endif %}
+<meta property="og:image" content="{% if meta_image %}{{meta_image}}{% else %}https://d2z4pehxidbzz4.cloudfront.net/app/icon.png{% endif %}"/>
+<meta property="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}Restvo helps organizations build a fun, easy-to-use, and intentional learning and mentoring community through mobile technology.{% endif %}">
+<meta property="og:site_name" content="Restvo Learning Platform">
+<meta property="article:publisher" content="https://www.facebook.com/RestvoInc">
+<meta property="og:locale" content="en_US" />
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="/img/meta/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/meta/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/meta/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/meta/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/meta/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/meta/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/meta/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/meta/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/meta/apple-touch-icon-180x180.png">
+{% if favicons %}
+{% for icon in favicons %}
+<link rel="icon" type="image/png" href="{{icon[0]}}" sizes="{{icon[1]}}">
+{% endfor %}
+{% else %}
+<link rel="icon" type="image/png" href="/img/meta/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/img/meta/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/meta/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/img/meta/favicon-192x192.png" sizes="192x192">
+{% endif %}
+<link rel="manifest" href="/manifest.json">
+
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/img/meta/ms-icon-70x70.png">
+<meta name="msapplication-TileImage" content="/img/meta/ms-icon-144x144.png">
+{% if not themeColor %}
+<meta name="theme-color" content="#4c8fff">
+{% else %}
+<meta name="theme-color" content="{{themeColor}}">
+{% endif %}
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% if recaptcha %}
+<script src="https://www.google.com/recaptcha/api.js?render=6LfbcKAUAAAAACUDq_t59TP8MawQXB37DVEeSOjZ"></script>
+{% endif %}
+
+{% if not noGlobalStencil %}
+<script type="module" src="/js/stencil/ionic-site-components/ionic-site-components.esm.js?v=f29028efb28aed262ece90ceb5aed1a3"></script>
+<script nomodule src="/js/stencil/ionic-site-components.js?v=c2f0127bf765225467299529007c9cc5"></script>
+{% endif %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-REFS9EZC2V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-REFS9EZC2V');
+</script>
