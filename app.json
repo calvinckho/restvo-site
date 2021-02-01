@@ -8,7 +8,7 @@
     }
   ],
   "description": "The marketing/communications parts of the ",
-  "repository": "https://github.com/ionic-team/ionic-site",
+  "repository": "https://github.com/calvinckho/restvo-site",
   "env": {
     "PIPEDRIVE_TOKEN": {
       "required": true
@@ -34,7 +34,7 @@
       "quantity": 1
     }
   },
-  "name": "ionic-site",
+  "name": "restvo-site",
   "scripts": {
   },
   "stack": "heroku-18"
