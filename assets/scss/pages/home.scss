@@ -19,6 +19,24 @@
     }
   }
 
+  .connect-virtually-text {
+    text-align: right !important;
+  }
+
+  @media (max-width: $screen-sm-max) {
+    .connect-virtually-illustration {
+      display: none;
+    }
+
+    .connect-virtually-wireframe {
+      width: 100%;
+    }
+
+    .connect-virtually-text {
+      text-align: center !important;
+    }
+  }
+
   main {
     overflow: visible;
 
