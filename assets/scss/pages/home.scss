@@ -37,6 +37,12 @@
     }
   }
 
+  @media (max-width: 1000px) {
+    .stay-on-track {
+      display: none;
+    }
+  }
+
   main {
     overflow: visible;
 
