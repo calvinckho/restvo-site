@@ -319,6 +319,18 @@
     }
   }
 
+  #options {
+
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      .option {
+        padding: 15px;
+      }
+    }
+  }
+
   #performance {
     .graphics {
       display: grid;
