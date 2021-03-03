@@ -319,16 +319,12 @@
     }
   }
 
-  #options {
-
-    .options-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-
-      .option {
-        padding: 15px;
-      }
-    }
+  .customized-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    margin-bottom: 15px;
   }
 
   #performance {
