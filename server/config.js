@@ -1,7 +1,7 @@
 module.exports = {
 
   // Services
-  PORT: int(process.env.PORT) || 8000,
+  PORT: int(process.env.RESTVO_SITE_PORT) || 8000,
   PROD: bool(process.env.PROD) || false,
   WEB_CONCURRENCY: int(process.env.WEB_CONCURRENCY) || 1,
 
