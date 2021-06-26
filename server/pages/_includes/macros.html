@@ -143,6 +143,11 @@
     </h4>    
     <p>{{ e.dept }}</p>
     <div class="social-row">
+      {% if e.email %}
+      <a class="mail"
+         href="{{ e.email }}"
+         target="_blank">&#xf322;</a> <!--look up Ionicons escaped html code at https://infinitered.github.io/ionicons-version-3-search/-->
+      {% endif %}
       {% if e.twitter %}
           <a class="twitter"
             href="{{ e.twitter }}"

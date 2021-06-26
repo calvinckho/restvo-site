@@ -3,6 +3,7 @@
     "name":"Alex Sung",
     "dept":"Co-Founder & CEO",
     "description":null,
+    "email":"mailto:alex@restvo.com",
     "twitter":"https://twitter.com/Onfire4jc",
     "linkedin":"https://www.linkedin.com/in/alextimsung/",
     "image":"/img/team/IMG_0362-p-500.jpeg"
@@ -11,17 +12,10 @@
     "name":"Calvin Ho",
     "dept":"Co-Founder & COO",
     "description":null,
+    "email":"mailto:calvin@restvo.com",
     "twitter":"https://twitter.com/calvin_c_ho",
     "linkedin":"https://www.linkedin.com/in/calvin-ho-1426536",
     "image": "/img/team/IMG_0337-p-500.jpeg"
-  },
-  {
-    "name":"Alvin Lee",
-    "dept":"UX/UI Design Intern",
-    "description":null,
-    "twitter":null,
-    "linkedin":null,
-    "image": "https://d2z4pehxidbzz4.cloudfront.net/users/5d8561b404d73d0732015ae4/1586827757173i54/image.jpg"
   },
   {
     "name":"Lily Li",
@@ -32,35 +26,11 @@
     "image": "/img/team/lily-li.jpeg"
   },
   {
-    "name":"Calix Huang",
-    "dept":"Software Engineering Intern",
-    "description":null,
-    "twitter":null,
-    "linkedin":null,
-    "image": "https://d2z4pehxidbzz4.cloudfront.net/users/5e5d775019b95d77f70b2c39/15831840628012zb/calix-center.jpeg"
-  },
-  {
     "name":"Kevin Tolentino",
     "dept":"Software Engineering Intern",
     "description":null,
     "twitter":null,
     "linkedin":null,
     "image": "https://d2z4pehxidbzz4.cloudfront.net/users/5f2cfc44de18fe7979f01091/15968376008930lp/kevin-tolentino.jpg"
-  },
-  {
-    "name":"Nate Realiza",
-    "dept":"Customer Success Intern",
-    "description":null,
-    "twitter":null,
-    "linkedin":null,
-    "image": "https://d2z4pehxidbzz4.cloudfront.net/users/5e9b26f792ba900b11ab6370/1587226444707128/image.jpg"
-  },
-  {
-    "name":"MaryJane Pryor",
-    "dept":"Customer Success Intern",
-    "description":null,
-    "twitter":null,
-    "linkedin":null,
-    "image": "https://d2z4pehxidbzz4.cloudfront.net/users/5dc2f4878d035854261c9b50/15903524319779il/image.jpg"
   }
 ]
