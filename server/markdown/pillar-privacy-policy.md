@@ -218,7 +218,7 @@ To the extent permitted by applicable law, we may retain information for as long
 
 To the extent required by applicable law, or in our discretion otherwise, we will allow customers and individuals to limit use of personal information. If at any time after providing us with your personal information such information changes or you change your mind about receiving information from us, you may request access to your data or that your data be changed.
 
-If you no longer wish to receive our communications, you may opt-out of receiving them at any time by following the instructions included in each communication, by going to our Notifications page https://app.restvo.com, Settings -> Notifications, or by mail to Pillar Inc., PO 21064 Castro Valley, CA 94546; Attn: Privacy.
+If you no longer wish to receive our communications, you may opt-out of receiving them at any time by following the instructions included in each communication, by going to our Notifications page https://pillar.restvo.com/app/user/notifications, Settings -> Notifications, or by mail to Pillar Inc., PO 21064 Castro Valley, CA 94546; Attn: Privacy.
 
 <span id="CrossDevice" class="anchor"></span>**7. CROSS-DEVICE TRACKING**
 
@@ -273,7 +273,7 @@ B.  **DISPUTE RESOLUTION**
 
 <span id="Updates" class="anchor"></span>**15. PRIVACY POLICY UPDATES**
 
-Pillar may update this Privacy Policy from time to time in our sole discretion to reflect changes to our information and privacy practices. Pillar will post any updated Privacy Policy on this page at https://restvo.com/privacy-policy or in the Pillar Services, or with any notice to individual users if required by applicable law. Continued use of the Pillar Services after any such modifications constitutes acceptance to any such modified Privacy Policy. Pillar encourages you to review this Privacy Policy regularly for any changes. The date of last revision is shown at the “*Last Updated*” legend at the top of this page.
+Pillar may update this Privacy Policy from time to time in our sole discretion to reflect changes to our information and privacy practices. Pillar will post any updated Privacy Policy on this page at https://restvo.com/pillar/privacy-policy or in the Pillar Services, or with any notice to individual users if required by applicable law. Continued use of the Pillar Services after any such modifications constitutes acceptance to any such modified Privacy Policy. Pillar encourages you to review this Privacy Policy regularly for any changes. The date of last revision is shown at the “*Last Updated*” legend at the top of this page.
 
 If you have any questions regarding our Privacy Policy, the practices of this site, or your dealings with us, please feel free to email us at hello@restvo.com.
 
