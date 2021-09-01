@@ -6,9 +6,9 @@ meta_description: We take the security of your information seriously, and work h
 
 # Restvo Inc. Privacy Policy
 
-*LAST UPDATED: Oct 1, 2020*
+*LAST UPDATED: Sept 1, 2021*
 
-Welcome to the Restvo Privacy Policy (“**Privacy Policy**”). We take the security of your information seriously, and work hard to maintain secure websites and services for your use. Drifty Co. (d/b/a Restvo), together with its affiliates (collectively, “**Restvo**”, “**we**”, “**us**”), provides services and tools for the development of a learning management system, using certain web technologies and certain ancillary applications, analytics, documentation, and services.
+Welcome to the Restvo Privacy Policy (“**Privacy Policy**”). We take the security of your information seriously, and work hard to maintain secure websites and services for your use. Restvo, together with its affiliates (collectively, “**Restvo**”, “**we**”, “**us**”), provides services and tools for the development of a learning management system, using certain web technologies and certain ancillary applications, analytics, documentation, and services.
 
 This Privacy Policy is intended to better help you understand our practices regarding information collected through (i) our websites including but not limited to Restvo.com, app.Restvo.com, and our other affiliated websites (collectively, “Websites”), (ii) our products and services, and (iii) any other digital properties that we own or control (collectively, the “**Restvo** **Services**” or “**Services**”) whether you are a customer that uses Restvo Services, an end user of our customers’ services that utilize our technology solutions, or whether you are simply visiting our Websites. This Privacy Policy describes how Restvo collects, processes, shares and retains the personal information (or in the EU/Switzerland: “personal data”) you provide to us.
 
