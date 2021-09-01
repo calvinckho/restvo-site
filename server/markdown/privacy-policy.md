@@ -4,7 +4,7 @@ meta_description: We take the security of your information seriously, and work h
 
 <p><br></p>
 
-# Restvo Inc. Privacy Policy
+# Restvo Privacy Policy
 
 *LAST UPDATED: Sept 1, 2021*
 

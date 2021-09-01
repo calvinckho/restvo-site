@@ -4,7 +4,7 @@ meta_description: We take the security of your information seriously, and work h
 
 <p><br></p>
 
-# Pillar Inc. Privacy Policy
+# Pillar Privacy Policy
 
 *LAST UPDATED: Sept 1, 2021*
 
