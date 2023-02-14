@@ -40,15 +40,6 @@ const resources = {
       },
       {
         "type": "Article",
-        "title": "We Love Acts 29!",
-        "url": "/resources/articles/love-acts-29",
-        "target": "_self",
-        "action": "Read",
-        "bgImage": "/img/resource-center/article-ionic-react-vs-react-native.png",
-        "bgColor": "#282E37"
-      },
-      {
-        "type": "Article",
         "title": "A Word on Anxiety",
         "url": "/resources/articles/a-word-on-anxiety",
         "target": "_self",
