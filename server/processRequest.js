@@ -13,7 +13,7 @@ require('./tools').getTwitterProfile().then(user => {
 
 // get the latest blog post info
 const lbs = require('./services/latestBlog');
-lbs.getLatestPost();
+// lbs.getLatestPost();
 
 module.exports = {
   checkForRedirects: (req, res, next) => {

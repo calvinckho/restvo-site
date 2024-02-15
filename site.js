@@ -34,12 +34,8 @@ const {
   WEB_CONCURRENCY
 } = require('./server/config');
 
-// start up paralell servers in prod
-throng({
-  workers: WEB_CONCURRENCY,
-  lifetime: Infinity
-}, start)
-
+// start up parallel servers in prod
+throng(start)
 
 function start() {
   const app = express();
